@@ -1,0 +1,5420 @@
+@type: DTMC
+@parameters
+p0 p1 p2 p3
+@reward_models
+
+@nr_states
+1118
+@nr_choices
+1118
+@model
+state 0 init
+	action 0
+		1 : 0.05
+		2 : 0.9
+		3 : 0.05
+state 1 MINVOLSET0
+	action 0
+		4 : 0.05
+		5 : 0.93
+		6 : 0.01
+		7 : 0.01
+state 2 MINVOLSET1
+	action 0
+		4 : 0.05
+		5 : 0.01
+		6 : 0.93
+		7 : 0.01
+state 3 MINVOLSET2
+	action 0
+		4 : 0.05
+		5 : 0.01
+		6 : 0.01
+		7 : 0.93
+state 4 VENTMACH0
+	action 0
+		8 : 0.1
+		9 : 0.9
+state 5 VENTMACH1
+	action 0
+		10 : 0.1
+		11 : 0.9
+state 6 VENTMACH2
+	action 0
+		12 : 0.1
+		13 : 0.9
+state 7 VENTMACH3
+	action 0
+		14 : 0.1
+		15 : 0.9
+state 8 DISCONNECT0
+	action 0
+		16 : 0.97
+		17 : 0.01
+		18 : 0.01
+		19 : 0.01
+state 9 DISCONNECT1
+	action 0
+		16 : 0.97
+		17 : 0.01
+		18 : 0.01
+		19 : 0.01
+state 10 DISCONNECT0
+	action 0
+		16 : 0.97
+		17 : 0.01
+		18 : 0.01
+		19 : 0.01
+state 11 DISCONNECT1
+	action 0
+		16 : 0.97
+		17 : 0.01
+		18 : 0.01
+		19 : 0.01
+state 12 DISCONNECT0
+	action 0
+		16 : 0.97
+		17 : 0.01
+		18 : 0.01
+		19 : 0.01
+state 13 DISCONNECT1
+	action 0
+		16 : 0.01
+		17 : 0.97
+		18 : 0.01
+		19 : 0.01
+state 14 DISCONNECT0
+	action 0
+		16 : 0.01
+		17 : 0.01
+		18 : 0.97
+		19 : 0.01
+state 15 DISCONNECT1
+	action 0
+		16 : 0.01
+		17 : 0.01
+		18 : 0.01
+		19 : 0.97
+state 16 VENTTUBE0
+	action 0
+		20 : 0.04
+		21 : 0.96
+state 17 VENTTUBE1
+	action 0
+		22 : 0.04
+		23 : 0.96
+state 18 VENTTUBE2
+	action 0
+		24 : 0.04
+		25 : 0.96
+state 19 VENTTUBE3
+	action 0
+		26 : 0.04
+		27 : 0.96
+state 20 KINKEDTUBE0
+	action 0
+		28 : 0.92
+		29 : 0.03
+		30 : 0.05
+state 21 KINKEDTUBE1
+	action 0
+		31 : 0.92
+		32 : 0.03
+		33 : 0.05
+state 22 KINKEDTUBE0
+	action 0
+		34 : 0.92
+		35 : 0.03
+		36 : 0.05
+state 23 KINKEDTUBE1
+	action 0
+		37 : 0.92
+		38 : 0.03
+		39 : 0.05
+state 24 KINKEDTUBE0
+	action 0
+		40 : 0.92
+		41 : 0.03
+		42 : 0.05
+state 25 KINKEDTUBE1
+	action 0
+		43 : 0.92
+		44 : 0.03
+		45 : 0.05
+state 26 KINKEDTUBE0
+	action 0
+		46 : 0.92
+		47 : 0.03
+		48 : 0.05
+state 27 KINKEDTUBE1
+	action 0
+		49 : 0.92
+		50 : 0.03
+		51 : 0.05
+state 28 INTUBATION0
+	action 0
+		52 : 0.97
+		53 : 0.01
+		54 : 0.01
+		55 : 0.01
+state 29 INTUBATION1
+	action 0
+		56 : 0.01
+		57 : 0.3
+		58 : 0.49
+		59 : 0.2
+state 30 INTUBATION2
+	action 0
+		60 : 0.01
+		61 : 0.01
+		62 : 0.08
+		63 : 0.9
+state 31 INTUBATION0
+	action 0
+		64 : 0.01
+		65 : 0.01
+		66 : 0.01
+		67 : 0.97
+state 32 INTUBATION1
+	action 0
+		68 : 0.97
+		69 : 0.01
+		70 : 0.01
+		71 : 0.01
+state 33 INTUBATION2
+	action 0
+		72 : 0.1
+		73 : 0.84
+		74 : 0.05
+		75 : 0.01
+state 34 INTUBATION0
+	action 0
+		76 : 0.05
+		77 : 0.25
+		78 : 0.25
+		79 : 0.45
+state 35 INTUBATION1
+	action 0
+		80 : 0.01
+		81 : 0.15
+		82 : 0.25
+		83 : 0.59
+state 36 INTUBATION2
+	action 0
+		84 : 0.97
+		85 : 0.01
+		86 : 0.01
+		87 : 0.01
+state 37 INTUBATION0
+	action 0
+		88 : 0.01
+		89 : 0.29
+		90 : 0.3
+		91 : 0.4
+state 38 INTUBATION1
+	action 0
+		92 : 0.01
+		93 : 0.01
+		94 : 0.08
+		95 : 0.9
+state 39 INTUBATION2
+	action 0
+		96 : 0.01
+		97 : 0.01
+		98 : 0.01
+		99 : 0.97
+state 40 INTUBATION0
+	action 0
+		100 : 0.97
+		101 : 0.01
+		102 : 0.01
+		103 : 0.01
+state 41 INTUBATION1
+	action 0
+		104 : 0.01
+		105 : 0.97
+		106 : 0.01
+		107 : 0.01
+state 42 INTUBATION2
+	action 0
+		108 : 0.01
+		109 : 0.01
+		110 : 0.97
+		111 : 0.01
+state 43 INTUBATION0
+	action 0
+		112 : 0.01
+		113 : 0.01
+		114 : 0.01
+		115 : 0.97
+state 44 INTUBATION1
+	action 0
+		116 : 0.97
+		117 : 0.01
+		118 : 0.01
+		119 : 0.01
+state 45 INTUBATION2
+	action 0
+		120 : 0.4
+		121 : 0.58
+		122 : 0.01
+		123 : 0.01
+state 46 INTUBATION0
+	action 0
+		124 : 0.2
+		125 : 0.75
+		126 : 0.04
+		127 : 0.01
+state 47 INTUBATION1
+	action 0
+		128 : 0.2
+		129 : 0.7
+		130 : 0.09
+		131 : 0.01
+state 48 INTUBATION2
+	action 0
+		132 : 0.97
+		133 : 0.01
+		134 : 0.01
+		135 : 0.01
+state 49 INTUBATION0
+	action 0
+		136 : 0.01
+		137 : 0.9
+		138 : 0.08
+		139 : 0.01
+state 50 INTUBATION1
+	action 0
+		140 : 0.01
+		141 : 0.01
+		142 : 0.38
+		143 : 0.6
+state 51 INTUBATION2
+	action 0
+		144 : 0.01
+		145 : 0.01
+		146 : 0.01
+		147 : 0.97
+state 52 PRESS0
+	action 0
+		148 : 0.97
+		149 : 0.01
+		150 : 0.01
+		151 : 0.01
+state 53 PRESS1
+	action 0
+		148 : 0.97
+		149 : 0.01
+		150 : 0.01
+		151 : 0.01
+state 54 PRESS2
+	action 0
+		148 : 0.97
+		149 : 0.01
+		150 : 0.01
+		151 : 0.01
+state 55 PRESS3
+	action 0
+		148 : 0.97
+		149 : 0.01
+		150 : 0.01
+		151 : 0.01
+state 56 PRESS0
+	action 0
+		152 : 0.95
+		153 : 0.03
+		154 : 0.01
+		155 : 0.01
+state 57 PRESS1
+	action 0
+		152 : 0.95
+		153 : 0.03
+		154 : 0.01
+		155 : 0.01
+state 58 PRESS2
+	action 0
+		152 : 0.95
+		153 : 0.03
+		154 : 0.01
+		155 : 0.01
+state 59 PRESS3
+	action 0
+		152 : 0.95
+		153 : 0.03
+		154 : 0.01
+		155 : 0.01
+state 60 PRESS0
+	action 0
+		156 : 0.4
+		157 : 0.58
+		158 : 0.01
+		159 : 0.01
+state 61 PRESS1
+	action 0
+		156 : 0.4
+		157 : 0.58
+		158 : 0.01
+		159 : 0.01
+state 62 PRESS2
+	action 0
+		156 : 0.4
+		157 : 0.58
+		158 : 0.01
+		159 : 0.01
+state 63 PRESS3
+	action 0
+		156 : 0.4
+		157 : 0.58
+		158 : 0.01
+		159 : 0.01
+state 64 PRESS0
+	action 0
+		148 : 0.3
+		149 : 0.68
+		150 : 0.01
+		151 : 0.01
+state 65 PRESS1
+	action 0
+		148 : 0.3
+		149 : 0.68
+		150 : 0.01
+		151 : 0.01
+state 66 PRESS2
+	action 0
+		148 : 0.3
+		149 : 0.68
+		150 : 0.01
+		151 : 0.01
+state 67 PRESS3
+	action 0
+		148 : 0.3
+		149 : 0.68
+		150 : 0.01
+		151 : 0.01
+state 68 PRESS0
+	action 0
+		152 : 0.97
+		153 : 0.01
+		154 : 0.01
+		155 : 0.01
+state 69 PRESS1
+	action 0
+		152 : 0.97
+		153 : 0.01
+		154 : 0.01
+		155 : 0.01
+state 70 PRESS2
+	action 0
+		152 : 0.97
+		153 : 0.01
+		154 : 0.01
+		155 : 0.01
+state 71 PRESS3
+	action 0
+		152 : 0.97
+		153 : 0.01
+		154 : 0.01
+		155 : 0.01
+state 72 PRESS0
+	action 0
+		156 : 0.97
+		157 : 0.01
+		158 : 0.01
+		159 : 0.01
+state 73 PRESS1
+	action 0
+		156 : 0.97
+		157 : 0.01
+		158 : 0.01
+		159 : 0.01
+state 74 PRESS2
+	action 0
+		156 : 0.97
+		157 : 0.01
+		158 : 0.01
+		159 : 0.01
+state 75 PRESS3
+	action 0
+		156 : 0.97
+		157 : 0.01
+		158 : 0.01
+		159 : 0.01
+state 76 PRESS0
+	action 0
+		148 : 0.97
+		149 : 0.01
+		150 : 0.01
+		151 : 0.01
+state 77 PRESS1
+	action 0
+		148 : 0.97
+		149 : 0.01
+		150 : 0.01
+		151 : 0.01
+state 78 PRESS2
+	action 0
+		148 : 0.97
+		149 : 0.01
+		150 : 0.01
+		151 : 0.01
+state 79 PRESS3
+	action 0
+		148 : 0.97
+		149 : 0.01
+		150 : 0.01
+		151 : 0.01
+state 80 PRESS0
+	action 0
+		152 : 0.97
+		153 : 0.01
+		154 : 0.01
+		155 : 0.01
+state 81 PRESS1
+	action 0
+		152 : 0.97
+		153 : 0.01
+		154 : 0.01
+		155 : 0.01
+state 82 PRESS2
+	action 0
+		152 : 0.97
+		153 : 0.01
+		154 : 0.01
+		155 : 0.01
+state 83 PRESS3
+	action 0
+		152 : 0.97
+		153 : 0.01
+		154 : 0.01
+		155 : 0.01
+state 84 PRESS0
+	action 0
+		156 : 0.97
+		157 : 0.01
+		158 : 0.01
+		159 : 0.01
+state 85 PRESS1
+	action 0
+		156 : 0.97
+		157 : 0.01
+		158 : 0.01
+		159 : 0.01
+state 86 PRESS2
+	action 0
+		156 : 0.97
+		157 : 0.01
+		158 : 0.01
+		159 : 0.01
+state 87 PRESS3
+	action 0
+		156 : 0.97
+		157 : 0.01
+		158 : 0.01
+		159 : 0.01
+state 88 PRESS0
+	action 0
+		148 : 0.95
+		149 : 0.03
+		150 : 0.01
+		151 : 0.01
+state 89 PRESS1
+	action 0
+		148 : 0.95
+		149 : 0.03
+		150 : 0.01
+		151 : 0.01
+state 90 PRESS2
+	action 0
+		148 : 0.95
+		149 : 0.03
+		150 : 0.01
+		151 : 0.01
+state 91 PRESS3
+	action 0
+		148 : 0.95
+		149 : 0.03
+		150 : 0.01
+		151 : 0.01
+state 92 PRESS0
+	action 0
+		152 : 0.5
+		153 : 0.48
+		154 : 0.01
+		155 : 0.01
+state 93 PRESS1
+	action 0
+		152 : 0.5
+		153 : 0.48
+		154 : 0.01
+		155 : 0.01
+state 94 PRESS2
+	action 0
+		152 : 0.5
+		153 : 0.48
+		154 : 0.01
+		155 : 0.01
+state 95 PRESS3
+	action 0
+		152 : 0.5
+		153 : 0.48
+		154 : 0.01
+		155 : 0.01
+state 96 PRESS0
+	action 0
+		156 : 0.3
+		157 : 0.68
+		158 : 0.01
+		159 : 0.01
+state 97 PRESS1
+	action 0
+		156 : 0.3
+		157 : 0.68
+		158 : 0.01
+		159 : 0.01
+state 98 PRESS2
+	action 0
+		156 : 0.3
+		157 : 0.68
+		158 : 0.01
+		159 : 0.01
+state 99 PRESS3
+	action 0
+		156 : 0.3
+		157 : 0.68
+		158 : 0.01
+		159 : 0.01
+state 100 PRESS0
+	action 0
+		148 : 0.97
+		149 : 0.01
+		150 : 0.01
+		151 : 0.01
+state 101 PRESS1
+	action 0
+		148 : 0.97
+		149 : 0.01
+		150 : 0.01
+		151 : 0.01
+state 102 PRESS2
+	action 0
+		148 : 0.97
+		149 : 0.01
+		150 : 0.01
+		151 : 0.01
+state 103 PRESS3
+	action 0
+		148 : 0.97
+		149 : 0.01
+		150 : 0.01
+		151 : 0.01
+state 104 PRESS0
+	action 0
+		152 : 0.01
+		153 : 0.97
+		154 : 0.01
+		155 : 0.01
+state 105 PRESS1
+	action 0
+		152 : 0.01
+		153 : 0.97
+		154 : 0.01
+		155 : 0.01
+state 106 PRESS2
+	action 0
+		152 : 0.01
+		153 : 0.97
+		154 : 0.01
+		155 : 0.01
+state 107 PRESS3
+	action 0
+		152 : 0.01
+		153 : 0.97
+		154 : 0.01
+		155 : 0.01
+state 108 PRESS0
+	action 0
+		156 : 0.01
+		157 : 0.01
+		158 : 0.97
+		159 : 0.01
+state 109 PRESS1
+	action 0
+		156 : 0.01
+		157 : 0.01
+		158 : 0.97
+		159 : 0.01
+state 110 PRESS2
+	action 0
+		156 : 0.01
+		157 : 0.01
+		158 : 0.97
+		159 : 0.01
+state 111 PRESS3
+	action 0
+		156 : 0.01
+		157 : 0.01
+		158 : 0.97
+		159 : 0.01
+state 112 PRESS0
+	action 0
+		148 : 0.01
+		149 : 0.01
+		150 : 0.01
+		151 : 0.97
+state 113 PRESS1
+	action 0
+		148 : 0.01
+		149 : 0.01
+		150 : 0.01
+		151 : 0.97
+state 114 PRESS2
+	action 0
+		148 : 0.01
+		149 : 0.01
+		150 : 0.01
+		151 : 0.97
+state 115 PRESS3
+	action 0
+		148 : 0.01
+		149 : 0.01
+		150 : 0.01
+		151 : 0.97
+state 116 PRESS0
+	action 0
+		152 : 0.97
+		153 : 0.01
+		154 : 0.01
+		155 : 0.01
+state 117 PRESS1
+	action 0
+		152 : 0.97
+		153 : 0.01
+		154 : 0.01
+		155 : 0.01
+state 118 PRESS2
+	action 0
+		152 : 0.97
+		153 : 0.01
+		154 : 0.01
+		155 : 0.01
+state 119 PRESS3
+	action 0
+		152 : 0.97
+		153 : 0.01
+		154 : 0.01
+		155 : 0.01
+state 120 PRESS0
+	action 0
+		156 : 0.97
+		157 : 0.01
+		158 : 0.01
+		159 : 0.01
+state 121 PRESS1
+	action 0
+		156 : 0.97
+		157 : 0.01
+		158 : 0.01
+		159 : 0.01
+state 122 PRESS2
+	action 0
+		156 : 0.97
+		157 : 0.01
+		158 : 0.01
+		159 : 0.01
+state 123 PRESS3
+	action 0
+		156 : 0.97
+		157 : 0.01
+		158 : 0.01
+		159 : 0.01
+state 124 PRESS0
+	action 0
+		148 : 0.97
+		149 : 0.01
+		150 : 0.01
+		151 : 0.01
+state 125 PRESS1
+	action 0
+		148 : 0.97
+		149 : 0.01
+		150 : 0.01
+		151 : 0.01
+state 126 PRESS2
+	action 0
+		148 : 0.97
+		149 : 0.01
+		150 : 0.01
+		151 : 0.01
+state 127 PRESS3
+	action 0
+		148 : 0.97
+		149 : 0.01
+		150 : 0.01
+		151 : 0.01
+state 128 PRESS0
+	action 0
+		152 : 0.97
+		153 : 0.01
+		154 : 0.01
+		155 : 0.01
+state 129 PRESS1
+	action 0
+		152 : 0.97
+		153 : 0.01
+		154 : 0.01
+		155 : 0.01
+state 130 PRESS2
+	action 0
+		152 : 0.97
+		153 : 0.01
+		154 : 0.01
+		155 : 0.01
+state 131 PRESS3
+	action 0
+		152 : 0.97
+		153 : 0.01
+		154 : 0.01
+		155 : 0.01
+state 132 PRESS0
+	action 0
+		156 : 0.97
+		157 : 0.01
+		158 : 0.01
+		159 : 0.01
+state 133 PRESS1
+	action 0
+		156 : 0.97
+		157 : 0.01
+		158 : 0.01
+		159 : 0.01
+state 134 PRESS2
+	action 0
+		156 : 0.97
+		157 : 0.01
+		158 : 0.01
+		159 : 0.01
+state 135 PRESS3
+	action 0
+		156 : 0.97
+		157 : 0.01
+		158 : 0.01
+		159 : 0.01
+state 136 PRESS0
+	action 0
+		148 : 0.01
+		149 : 0.97
+		150 : 0.01
+		151 : 0.01
+state 137 PRESS1
+	action 0
+		148 : 0.01
+		149 : 0.97
+		150 : 0.01
+		151 : 0.01
+state 138 PRESS2
+	action 0
+		148 : 0.01
+		149 : 0.97
+		150 : 0.01
+		151 : 0.01
+state 139 PRESS3
+	action 0
+		148 : 0.01
+		149 : 0.97
+		150 : 0.01
+		151 : 0.01
+state 140 PRESS0
+	action 0
+		152 : 0.01
+		153 : 0.01
+		154 : 0.97
+		155 : 0.01
+state 141 PRESS1
+	action 0
+		152 : 0.01
+		153 : 0.01
+		154 : 0.97
+		155 : 0.01
+state 142 PRESS2
+	action 0
+		152 : 0.01
+		153 : 0.01
+		154 : 0.97
+		155 : 0.01
+state 143 PRESS3
+	action 0
+		152 : 0.01
+		153 : 0.01
+		154 : 0.97
+		155 : 0.01
+state 144 PRESS0
+	action 0
+		156 : 0.01
+		157 : 0.01
+		158 : 0.01
+		159 : 0.97
+state 145 PRESS1
+	action 0
+		156 : 0.01
+		157 : 0.01
+		158 : 0.01
+		159 : 0.97
+state 146 PRESS2
+	action 0
+		156 : 0.01
+		157 : 0.01
+		158 : 0.01
+		159 : 0.97
+state 147 PRESS3
+	action 0
+		156 : 0.01
+		157 : 0.01
+		158 : 0.01
+		159 : 0.97
+state 148 VENTLUNG0
+	action 0
+		160 : 0.97
+		161 : 0.01
+		162 : 0.01
+		163 : 0.01
+state 149 VENTLUNG1
+	action 0
+		164 : 0.01
+		165 : 0.01
+		166 : 0.01
+		167 : 0.97
+state 150 VENTLUNG2
+	action 0
+		168 : 0.5
+		169 : 0.48
+		170 : 0.01
+		171 : 0.01
+state 151 VENTLUNG3
+	action 0
+		172 : 0.01
+		173 : 0.97
+		174 : 0.01
+		175 : 0.01
+state 152 VENTLUNG0
+	action 0
+		176 : 0.01
+		177 : 0.97
+		178 : 0.01
+		179 : 0.01
+state 153 VENTLUNG1
+	action 0
+		180 : 0.97
+		181 : 0.01
+		182 : 0.01
+		183 : 0.01
+state 154 VENTLUNG2
+	action 0
+		184 : 0.5
+		185 : 0.48
+		186 : 0.01
+		187 : 0.01
+state 155 VENTLUNG3
+	action 0
+		188 : 0.01
+		189 : 0.01
+		190 : 0.97
+		191 : 0.01
+state 156 VENTLUNG0
+	action 0
+		192 : 0.01
+		193 : 0.01
+		194 : 0.97
+		195 : 0.01
+state 157 VENTLUNG1
+	action 0
+		196 : 0.6
+		197 : 0.38
+		198 : 0.01
+		199 : 0.01
+state 158 VENTLUNG2
+	action 0
+		200 : 0.97
+		201 : 0.01
+		202 : 0.01
+		203 : 0.01
+state 159 VENTLUNG3
+	action 0
+		204 : 0.01
+		205 : 0.01
+		206 : 0.01
+		207 : 0.97
+state 160 MINVOL0
+	action 0
+		208 : 0.01
+		209 : 0.99
+state 161 MINVOL1
+	action 0
+		208 : 0.01
+		209 : 0.99
+state 162 MINVOL2
+	action 0
+		208 : 0.01
+		209 : 0.99
+state 163 MINVOL3
+	action 0
+		208 : 0.01
+		209 : 0.99
+state 164 MINVOL0
+	action 0
+		210 : 0.01
+		211 : 0.99
+state 165 MINVOL1
+	action 0
+		210 : 0.01
+		211 : 0.99
+state 166 MINVOL2
+	action 0
+		210 : 0.01
+		211 : 0.99
+state 167 MINVOL3
+	action 0
+		210 : 0.01
+		211 : 0.99
+state 168 MINVOL0
+	action 0
+		212 : 0.01
+		213 : 0.99
+state 169 MINVOL1
+	action 0
+		212 : 0.01
+		213 : 0.99
+state 170 MINVOL2
+	action 0
+		212 : 0.01
+		213 : 0.99
+state 171 MINVOL3
+	action 0
+		212 : 0.01
+		213 : 0.99
+state 172 MINVOL0
+	action 0
+		214 : 0.01
+		215 : 0.99
+state 173 MINVOL1
+	action 0
+		214 : 0.01
+		215 : 0.99
+state 174 MINVOL2
+	action 0
+		214 : 0.01
+		215 : 0.99
+state 175 MINVOL3
+	action 0
+		214 : 0.01
+		215 : 0.99
+state 176 MINVOL0
+	action 0
+		216 : 0.01
+		217 : 0.99
+state 177 MINVOL1
+	action 0
+		216 : 0.01
+		217 : 0.99
+state 178 MINVOL2
+	action 0
+		216 : 0.01
+		217 : 0.99
+state 179 MINVOL3
+	action 0
+		216 : 0.01
+		217 : 0.99
+state 180 MINVOL0
+	action 0
+		218 : 0.01
+		219 : 0.99
+state 181 MINVOL1
+	action 0
+		218 : 0.01
+		219 : 0.99
+state 182 MINVOL2
+	action 0
+		218 : 0.01
+		219 : 0.99
+state 183 MINVOL3
+	action 0
+		218 : 0.01
+		219 : 0.99
+state 184 MINVOL0
+	action 0
+		220 : 0.01
+		221 : 0.99
+state 185 MINVOL1
+	action 0
+		220 : 0.01
+		221 : 0.99
+state 186 MINVOL2
+	action 0
+		220 : 0.01
+		221 : 0.99
+state 187 MINVOL3
+	action 0
+		220 : 0.01
+		221 : 0.99
+state 188 MINVOL0
+	action 0
+		222 : 0.01
+		223 : 0.99
+state 189 MINVOL1
+	action 0
+		222 : 0.01
+		223 : 0.99
+state 190 MINVOL2
+	action 0
+		222 : 0.01
+		223 : 0.99
+state 191 MINVOL3
+	action 0
+		222 : 0.01
+		223 : 0.99
+state 192 MINVOL0
+	action 0
+		224 : 0.01
+		225 : 0.99
+state 193 MINVOL1
+	action 0
+		224 : 0.01
+		225 : 0.99
+state 194 MINVOL2
+	action 0
+		224 : 0.01
+		225 : 0.99
+state 195 MINVOL3
+	action 0
+		224 : 0.01
+		225 : 0.99
+state 196 MINVOL0
+	action 0
+		226 : 0.01
+		227 : 0.99
+state 197 MINVOL1
+	action 0
+		226 : 0.01
+		227 : 0.99
+state 198 MINVOL2
+	action 0
+		226 : 0.01
+		227 : 0.99
+state 199 MINVOL3
+	action 0
+		226 : 0.01
+		227 : 0.99
+state 200 MINVOL0
+	action 0
+		228 : 0.01
+		229 : 0.99
+state 201 MINVOL1
+	action 0
+		228 : 0.01
+		229 : 0.99
+state 202 MINVOL2
+	action 0
+		228 : 0.01
+		229 : 0.99
+state 203 MINVOL3
+	action 0
+		228 : 0.01
+		229 : 0.99
+state 204 MINVOL0
+	action 0
+		230 : 0.01
+		231 : 0.99
+state 205 MINVOL1
+	action 0
+		230 : 0.01
+		231 : 0.99
+state 206 MINVOL2
+	action 0
+		230 : 0.01
+		231 : 0.99
+state 207 MINVOL3
+	action 0
+		230 : 0.01
+		231 : 0.99
+state 208 PULMEMBOLUS0
+	action 0
+		232 : 0.01
+		233 : 0.19
+		234 : 0.8
+state 209 PULMEMBOLUS1
+	action 0
+		235 : 0.05
+		236 : 0.9
+		237 : 0.05
+state 210 PULMEMBOLUS0
+	action 0
+		238 : 0.01
+		239 : 0.19
+		240 : 0.8
+state 211 PULMEMBOLUS1
+	action 0
+		241 : 0.05
+		242 : 0.9
+		243 : 0.05
+state 212 PULMEMBOLUS0
+	action 0
+		244 : 0.01
+		245 : 0.19
+		246 : 0.8
+state 213 PULMEMBOLUS1
+	action 0
+		247 : 0.05
+		248 : 0.9
+		249 : 0.05
+state 214 PULMEMBOLUS0
+	action 0
+		250 : 0.01
+		251 : 0.19
+		252 : 0.8
+state 215 PULMEMBOLUS1
+	action 0
+		253 : 0.05
+		254 : 0.9
+		255 : 0.05
+state 216 PULMEMBOLUS0
+	action 0
+		256 : 0.01
+		257 : 0.19
+		258 : 0.8
+state 217 PULMEMBOLUS1
+	action 0
+		259 : 0.05
+		260 : 0.9
+		261 : 0.05
+state 218 PULMEMBOLUS0
+	action 0
+		262 : 0.01
+		263 : 0.19
+		264 : 0.8
+state 219 PULMEMBOLUS1
+	action 0
+		265 : 0.05
+		266 : 0.9
+		267 : 0.05
+state 220 PULMEMBOLUS0
+	action 0
+		268 : 0.01
+		269 : 0.19
+		270 : 0.8
+state 221 PULMEMBOLUS1
+	action 0
+		271 : 0.05
+		272 : 0.9
+		273 : 0.05
+state 222 PULMEMBOLUS0
+	action 0
+		274 : 0.01
+		275 : 0.19
+		276 : 0.8
+state 223 PULMEMBOLUS1
+	action 0
+		277 : 0.05
+		278 : 0.9
+		279 : 0.05
+state 224 PULMEMBOLUS0
+	action 0
+		280 : 0.01
+		281 : 0.19
+		282 : 0.8
+state 225 PULMEMBOLUS1
+	action 0
+		283 : 0.05
+		284 : 0.9
+		285 : 0.05
+state 226 PULMEMBOLUS0
+	action 0
+		286 : 0.01
+		287 : 0.19
+		288 : 0.8
+state 227 PULMEMBOLUS1
+	action 0
+		289 : 0.05
+		290 : 0.9
+		291 : 0.05
+state 228 PULMEMBOLUS0
+	action 0
+		292 : 0.01
+		293 : 0.19
+		294 : 0.8
+state 229 PULMEMBOLUS1
+	action 0
+		295 : 0.05
+		296 : 0.9
+		297 : 0.05
+state 230 PULMEMBOLUS0
+	action 0
+		298 : 0.01
+		299 : 0.19
+		300 : 0.8
+state 231 PULMEMBOLUS1
+	action 0
+		301 : 0.05
+		302 : 0.9
+		303 : 0.05
+state 232 PAP0
+	action 0
+		304 : 0.1
+		305 : 0.9
+state 233 PAP1
+	action 0
+		304 : 0.1
+		305 : 0.9
+state 234 PAP2
+	action 0
+		304 : 0.1
+		305 : 0.9
+state 235 PAP0
+	action 0
+		304 : 0.95
+		305 : 0.05
+state 236 PAP1
+	action 0
+		304 : 0.95
+		305 : 0.05
+state 237 PAP2
+	action 0
+		304 : 0.95
+		305 : 0.05
+state 238 PAP0
+	action 0
+		306 : 0.1
+		307 : 0.9
+state 239 PAP1
+	action 0
+		306 : 0.1
+		307 : 0.9
+state 240 PAP2
+	action 0
+		306 : 0.1
+		307 : 0.9
+state 241 PAP0
+	action 0
+		306 : 0.95
+		307 : 0.05
+state 242 PAP1
+	action 0
+		306 : 0.95
+		307 : 0.05
+state 243 PAP2
+	action 0
+		306 : 0.95
+		307 : 0.05
+state 244 PAP0
+	action 0
+		308 : 0.1
+		309 : 0.9
+state 245 PAP1
+	action 0
+		308 : 0.1
+		309 : 0.9
+state 246 PAP2
+	action 0
+		308 : 0.1
+		309 : 0.9
+state 247 PAP0
+	action 0
+		308 : 0.95
+		309 : 0.05
+state 248 PAP1
+	action 0
+		308 : 0.95
+		309 : 0.05
+state 249 PAP2
+	action 0
+		308 : 0.95
+		309 : 0.05
+state 250 PAP0
+	action 0
+		310 : 0.1
+		311 : 0.9
+state 251 PAP1
+	action 0
+		310 : 0.1
+		311 : 0.9
+state 252 PAP2
+	action 0
+		310 : 0.1
+		311 : 0.9
+state 253 PAP0
+	action 0
+		310 : 0.95
+		311 : 0.05
+state 254 PAP1
+	action 0
+		310 : 0.95
+		311 : 0.05
+state 255 PAP2
+	action 0
+		310 : 0.95
+		311 : 0.05
+state 256 PAP0
+	action 0
+		312 : 0.1
+		313 : 0.9
+state 257 PAP1
+	action 0
+		312 : 0.1
+		313 : 0.9
+state 258 PAP2
+	action 0
+		312 : 0.1
+		313 : 0.9
+state 259 PAP0
+	action 0
+		312 : 0.95
+		313 : 0.05
+state 260 PAP1
+	action 0
+		312 : 0.95
+		313 : 0.05
+state 261 PAP2
+	action 0
+		312 : 0.95
+		313 : 0.05
+state 262 PAP0
+	action 0
+		314 : 0.1
+		315 : 0.9
+state 263 PAP1
+	action 0
+		314 : 0.1
+		315 : 0.9
+state 264 PAP2
+	action 0
+		314 : 0.1
+		315 : 0.9
+state 265 PAP0
+	action 0
+		314 : 0.95
+		315 : 0.05
+state 266 PAP1
+	action 0
+		314 : 0.95
+		315 : 0.05
+state 267 PAP2
+	action 0
+		314 : 0.95
+		315 : 0.05
+state 268 PAP0
+	action 0
+		316 : 0.1
+		317 : 0.9
+state 269 PAP1
+	action 0
+		316 : 0.1
+		317 : 0.9
+state 270 PAP2
+	action 0
+		316 : 0.1
+		317 : 0.9
+state 271 PAP0
+	action 0
+		316 : 0.95
+		317 : 0.05
+state 272 PAP1
+	action 0
+		316 : 0.95
+		317 : 0.05
+state 273 PAP2
+	action 0
+		316 : 0.95
+		317 : 0.05
+state 274 PAP0
+	action 0
+		318 : 0.1
+		319 : 0.9
+state 275 PAP1
+	action 0
+		318 : 0.1
+		319 : 0.9
+state 276 PAP2
+	action 0
+		318 : 0.1
+		319 : 0.9
+state 277 PAP0
+	action 0
+		318 : 0.95
+		319 : 0.05
+state 278 PAP1
+	action 0
+		318 : 0.95
+		319 : 0.05
+state 279 PAP2
+	action 0
+		318 : 0.95
+		319 : 0.05
+state 280 PAP0
+	action 0
+		320 : 0.01
+		321 : 0.99
+state 281 PAP1
+	action 0
+		320 : 0.01
+		321 : 0.99
+state 282 PAP2
+	action 0
+		320 : 0.01
+		321 : 0.99
+state 283 PAP0
+	action 0
+		320 : 0.05
+		321 : 0.95
+state 284 PAP1
+	action 0
+		320 : 0.05
+		321 : 0.95
+state 285 PAP2
+	action 0
+		320 : 0.05
+		321 : 0.95
+state 286 PAP0
+	action 0
+		322 : 0.01
+		323 : 0.99
+state 287 PAP1
+	action 0
+		322 : 0.01
+		323 : 0.99
+state 288 PAP2
+	action 0
+		322 : 0.01
+		323 : 0.99
+state 289 PAP0
+	action 0
+		322 : 0.05
+		323 : 0.95
+state 290 PAP1
+	action 0
+		322 : 0.05
+		323 : 0.95
+state 291 PAP2
+	action 0
+		322 : 0.05
+		323 : 0.95
+state 292 PAP0
+	action 0
+		324 : 0.01
+		325 : 0.99
+state 293 PAP1
+	action 0
+		324 : 0.01
+		325 : 0.99
+state 294 PAP2
+	action 0
+		324 : 0.01
+		325 : 0.99
+state 295 PAP0
+	action 0
+		324 : 0.05
+		325 : 0.95
+state 296 PAP1
+	action 0
+		324 : 0.05
+		325 : 0.95
+state 297 PAP2
+	action 0
+		324 : 0.05
+		325 : 0.95
+state 298 PAP0
+	action 0
+		326 : 0.01
+		327 : 0.99
+state 299 PAP1
+	action 0
+		326 : 0.01
+		327 : 0.99
+state 300 PAP2
+	action 0
+		326 : 0.01
+		327 : 0.99
+state 301 PAP0
+	action 0
+		326 : 0.05
+		327 : 0.95
+state 302 PAP1
+	action 0
+		326 : 0.05
+		327 : 0.95
+state 303 PAP2
+	action 0
+		326 : 0.05
+		327 : 0.95
+state 304 SHUNT0
+	action 0
+		328 : 0.97
+		329 : 0.01
+		330 : 0.01
+		331 : 0.01
+state 305 SHUNT1
+	action 0
+		332 : 0.97
+		333 : 0.01
+		334 : 0.01
+		335 : 0.01
+state 306 SHUNT0
+	action 0
+		336 : 0.01
+		337 : 0.01
+		338 : 0.01
+		339 : 0.97
+state 307 SHUNT1
+	action 0
+		340 : 0.01
+		341 : 0.01
+		342 : 0.01
+		343 : 0.97
+state 308 SHUNT0
+	action 0
+		344 : 0.01
+		345 : 0.01
+		346 : 0.97
+		347 : 0.01
+state 309 SHUNT1
+	action 0
+		348 : 0.01
+		349 : 0.01
+		350 : 0.97
+		351 : 0.01
+state 310 SHUNT0
+	action 0
+		352 : 0.03
+		353 : 0.95
+		354 : 0.01
+		355 : 0.01
+state 311 SHUNT1
+	action 0
+		356 : 0.03
+		357 : 0.95
+		358 : 0.01
+		359 : 0.01
+state 312 SHUNT0
+	action 0
+		328 : 0.01
+		329 : 0.97
+		330 : 0.01
+		331 : 0.01
+state 313 SHUNT1
+	action 0
+		332 : 0.01
+		333 : 0.97
+		334 : 0.01
+		335 : 0.01
+state 314 SHUNT0
+	action 0
+		336 : 0.97
+		337 : 0.01
+		338 : 0.01
+		339 : 0.01
+state 315 SHUNT1
+	action 0
+		340 : 0.97
+		341 : 0.01
+		342 : 0.01
+		343 : 0.01
+state 316 SHUNT0
+	action 0
+		344 : 0.01
+		345 : 0.01
+		346 : 0.01
+		347 : 0.97
+state 317 SHUNT1
+	action 0
+		348 : 0.01
+		349 : 0.01
+		350 : 0.01
+		351 : 0.97
+state 318 SHUNT0
+	action 0
+		352 : 0.01
+		353 : 0.94
+		354 : 0.04
+		355 : 0.01
+state 319 SHUNT1
+	action 0
+		356 : 0.01
+		357 : 0.94
+		358 : 0.04
+		359 : 0.01
+state 320 SHUNT0
+	action 0
+		328 : 0.01
+		329 : 0.01
+		330 : 0.97
+		331 : 0.01
+state 321 SHUNT1
+	action 0
+		332 : 0.01
+		333 : 0.01
+		334 : 0.97
+		335 : 0.01
+state 322 SHUNT0
+	action 0
+		336 : 0.01
+		337 : 0.97
+		338 : 0.01
+		339 : 0.01
+state 323 SHUNT1
+	action 0
+		340 : 0.01
+		341 : 0.97
+		342 : 0.01
+		343 : 0.01
+state 324 SHUNT0
+	action 0
+		344 : 0.97
+		345 : 0.01
+		346 : 0.01
+		347 : 0.01
+state 325 SHUNT1
+	action 0
+		348 : 0.97
+		349 : 0.01
+		350 : 0.01
+		351 : 0.01
+state 326 SHUNT0
+	action 0
+		352 : 0.01
+		353 : 0.88
+		354 : 0.1
+		355 : 0.01
+state 327 SHUNT1
+	action 0
+		356 : 0.01
+		357 : 0.88
+		358 : 0.1
+		359 : 0.01
+state 328 VENTALV0
+	action 0
+		360 : 0.01
+		361 : 0.01
+		362 : 0.98
+state 329 VENTALV1
+	action 0
+		363 : 0.01
+		364 : 0.01
+		365 : 0.98
+state 330 VENTALV2
+	action 0
+		366 : 0.04
+		367 : 0.92
+		368 : 0.04
+state 331 VENTALV3
+	action 0
+		369 : 0.9
+		370 : 0.09
+		371 : 0.01
+state 332 VENTALV0
+	action 0
+		372 : 0.01
+		373 : 0.01
+		374 : 0.98
+state 333 VENTALV1
+	action 0
+		375 : 0.01
+		376 : 0.01
+		377 : 0.98
+state 334 VENTALV2
+	action 0
+		378 : 0.04
+		379 : 0.92
+		380 : 0.04
+state 335 VENTALV3
+	action 0
+		381 : 0.9
+		382 : 0.09
+		383 : 0.01
+state 336 VENTALV0
+	action 0
+		384 : 0.01
+		385 : 0.01
+		386 : 0.98
+state 337 VENTALV1
+	action 0
+		387 : 0.01
+		388 : 0.01
+		389 : 0.98
+state 338 VENTALV2
+	action 0
+		390 : 0.04
+		391 : 0.92
+		392 : 0.04
+state 339 VENTALV3
+	action 0
+		393 : 0.9
+		394 : 0.09
+		395 : 0.01
+state 340 VENTALV0
+	action 0
+		396 : 0.01
+		397 : 0.01
+		398 : 0.98
+state 341 VENTALV1
+	action 0
+		399 : 0.01
+		400 : 0.01
+		401 : 0.98
+state 342 VENTALV2
+	action 0
+		402 : 0.04
+		403 : 0.92
+		404 : 0.04
+state 343 VENTALV3
+	action 0
+		405 : 0.9
+		406 : 0.09
+		407 : 0.01
+state 344 VENTALV0
+	action 0
+		408 : 0.01
+		409 : 0.01
+		410 : 0.98
+state 345 VENTALV1
+	action 0
+		411 : 0.01
+		412 : 0.01
+		413 : 0.98
+state 346 VENTALV2
+	action 0
+		414 : 0.04
+		415 : 0.92
+		416 : 0.04
+state 347 VENTALV3
+	action 0
+		417 : 0.9
+		418 : 0.09
+		419 : 0.01
+state 348 VENTALV0
+	action 0
+		420 : 0.01
+		421 : 0.01
+		422 : 0.98
+state 349 VENTALV1
+	action 0
+		423 : 0.01
+		424 : 0.01
+		425 : 0.98
+state 350 VENTALV2
+	action 0
+		426 : 0.04
+		427 : 0.92
+		428 : 0.04
+state 351 VENTALV3
+	action 0
+		429 : 0.9
+		430 : 0.09
+		431 : 0.01
+state 352 VENTALV0
+	action 0
+		432 : 0.01
+		433 : 0.01
+		434 : 0.98
+state 353 VENTALV1
+	action 0
+		435 : 0.01
+		436 : 0.01
+		437 : 0.98
+state 354 VENTALV2
+	action 0
+		438 : 0.04
+		439 : 0.92
+		440 : 0.04
+state 355 VENTALV3
+	action 0
+		441 : 0.9
+		442 : 0.09
+		443 : 0.01
+state 356 VENTALV0
+	action 0
+		444 : 0.01
+		445 : 0.01
+		446 : 0.98
+state 357 VENTALV1
+	action 0
+		447 : 0.01
+		448 : 0.01
+		449 : 0.98
+state 358 VENTALV2
+	action 0
+		450 : 0.04
+		451 : 0.92
+		452 : 0.04
+state 359 VENTALV3
+	action 0
+		453 : 0.9
+		454 : 0.09
+		455 : 0.01
+state 360 ARTCO20
+	action 0
+		456 : 0.97
+		457 : 0.01
+		458 : 0.01
+		459 : 0.01
+state 361 ARTCO21
+	action 0
+		460 : 0.01
+		461 : 0.97
+		462 : 0.01
+		463 : 0.01
+state 362 ARTCO22
+	action 0
+		464 : 0.01
+		465 : 0.97
+		466 : 0.01
+		467 : 0.01
+state 363 ARTCO20
+	action 0
+		468 : 0.97
+		469 : 0.01
+		470 : 0.01
+		471 : 0.01
+state 364 ARTCO21
+	action 0
+		472 : 0.01
+		473 : 0.97
+		474 : 0.01
+		475 : 0.01
+state 365 ARTCO22
+	action 0
+		476 : 0.01
+		477 : 0.97
+		478 : 0.01
+		479 : 0.01
+state 366 ARTCO20
+	action 0
+		480 : 0.97
+		481 : 0.01
+		482 : 0.01
+		483 : 0.01
+state 367 ARTCO21
+	action 0
+		484 : 0.01
+		485 : 0.97
+		486 : 0.01
+		487 : 0.01
+state 368 ARTCO22
+	action 0
+		488 : 0.01
+		489 : 0.97
+		490 : 0.01
+		491 : 0.01
+state 369 ARTCO20
+	action 0
+		492 : 0.97
+		493 : 0.01
+		494 : 0.01
+		495 : 0.01
+state 370 ARTCO21
+	action 0
+		496 : 0.01
+		497 : 0.97
+		498 : 0.01
+		499 : 0.01
+state 371 ARTCO22
+	action 0
+		500 : 0.01
+		501 : 0.97
+		502 : 0.01
+		503 : 0.01
+state 372 ARTCO20
+	action 0
+		504 : 0.97
+		505 : 0.01
+		506 : 0.01
+		507 : 0.01
+state 373 ARTCO21
+	action 0
+		508 : 0.01
+		509 : 0.97
+		510 : 0.01
+		511 : 0.01
+state 374 ARTCO22
+	action 0
+		512 : 0.01
+		513 : 0.97
+		514 : 0.01
+		515 : 0.01
+state 375 ARTCO20
+	action 0
+		516 : 0.97
+		517 : 0.01
+		518 : 0.01
+		519 : 0.01
+state 376 ARTCO21
+	action 0
+		520 : 0.01
+		521 : 0.97
+		522 : 0.01
+		523 : 0.01
+state 377 ARTCO22
+	action 0
+		524 : 0.01
+		525 : 0.97
+		526 : 0.01
+		527 : 0.01
+state 378 ARTCO20
+	action 0
+		528 : 0.97
+		529 : 0.01
+		530 : 0.01
+		531 : 0.01
+state 379 ARTCO21
+	action 0
+		532 : 0.01
+		533 : 0.97
+		534 : 0.01
+		535 : 0.01
+state 380 ARTCO22
+	action 0
+		536 : 0.01
+		537 : 0.97
+		538 : 0.01
+		539 : 0.01
+state 381 ARTCO20
+	action 0
+		540 : 0.97
+		541 : 0.01
+		542 : 0.01
+		543 : 0.01
+state 382 ARTCO21
+	action 0
+		544 : 0.01
+		545 : 0.97
+		546 : 0.01
+		547 : 0.01
+state 383 ARTCO22
+	action 0
+		548 : 0.01
+		549 : 0.97
+		550 : 0.01
+		551 : 0.01
+state 384 ARTCO20
+	action 0
+		456 : 0.01
+		457 : 0.97
+		458 : 0.01
+		459 : 0.01
+state 385 ARTCO21
+	action 0
+		460 : 0.97
+		461 : 0.01
+		462 : 0.01
+		463 : 0.01
+state 386 ARTCO22
+	action 0
+		464 : 0.01
+		465 : 0.01
+		466 : 0.97
+		467 : 0.01
+state 387 ARTCO20
+	action 0
+		468 : 0.01
+		469 : 0.97
+		470 : 0.01
+		471 : 0.01
+state 388 ARTCO21
+	action 0
+		472 : 0.97
+		473 : 0.01
+		474 : 0.01
+		475 : 0.01
+state 389 ARTCO22
+	action 0
+		476 : 0.01
+		477 : 0.01
+		478 : 0.97
+		479 : 0.01
+state 390 ARTCO20
+	action 0
+		480 : 0.01
+		481 : 0.97
+		482 : 0.01
+		483 : 0.01
+state 391 ARTCO21
+	action 0
+		484 : 0.97
+		485 : 0.01
+		486 : 0.01
+		487 : 0.01
+state 392 ARTCO22
+	action 0
+		488 : 0.01
+		489 : 0.01
+		490 : 0.97
+		491 : 0.01
+state 393 ARTCO20
+	action 0
+		492 : 0.01
+		493 : 0.97
+		494 : 0.01
+		495 : 0.01
+state 394 ARTCO21
+	action 0
+		496 : 0.97
+		497 : 0.01
+		498 : 0.01
+		499 : 0.01
+state 395 ARTCO22
+	action 0
+		500 : 0.01
+		501 : 0.01
+		502 : 0.97
+		503 : 0.01
+state 396 ARTCO20
+	action 0
+		504 : 0.01
+		505 : 0.97
+		506 : 0.01
+		507 : 0.01
+state 397 ARTCO21
+	action 0
+		508 : 0.97
+		509 : 0.01
+		510 : 0.01
+		511 : 0.01
+state 398 ARTCO22
+	action 0
+		512 : 0.01
+		513 : 0.01
+		514 : 0.97
+		515 : 0.01
+state 399 ARTCO20
+	action 0
+		516 : 0.01
+		517 : 0.97
+		518 : 0.01
+		519 : 0.01
+state 400 ARTCO21
+	action 0
+		520 : 0.97
+		521 : 0.01
+		522 : 0.01
+		523 : 0.01
+state 401 ARTCO22
+	action 0
+		524 : 0.01
+		525 : 0.01
+		526 : 0.97
+		527 : 0.01
+state 402 ARTCO20
+	action 0
+		528 : 0.01
+		529 : 0.97
+		530 : 0.01
+		531 : 0.01
+state 403 ARTCO21
+	action 0
+		532 : 0.97
+		533 : 0.01
+		534 : 0.01
+		535 : 0.01
+state 404 ARTCO22
+	action 0
+		536 : 0.01
+		537 : 0.01
+		538 : 0.97
+		539 : 0.01
+state 405 ARTCO20
+	action 0
+		540 : 0.01
+		541 : 0.97
+		542 : 0.01
+		543 : 0.01
+state 406 ARTCO21
+	action 0
+		544 : 0.97
+		545 : 0.01
+		546 : 0.01
+		547 : 0.01
+state 407 ARTCO22
+	action 0
+		548 : 0.01
+		549 : 0.01
+		550 : 0.97
+		551 : 0.01
+state 408 ARTCO20
+	action 0
+		456 : 0.01
+		457 : 0.01
+		458 : 0.97
+		459 : 0.01
+state 409 ARTCO21
+	action 0
+		460 : 0.01
+		461 : 0.01
+		462 : 0.97
+		463 : 0.01
+state 410 ARTCO22
+	action 0
+		464 : 0.97
+		465 : 0.01
+		466 : 0.01
+		467 : 0.01
+state 411 ARTCO20
+	action 0
+		468 : 0.01
+		469 : 0.01
+		470 : 0.97
+		471 : 0.01
+state 412 ARTCO21
+	action 0
+		472 : 0.01
+		473 : 0.01
+		474 : 0.97
+		475 : 0.01
+state 413 ARTCO22
+	action 0
+		476 : 0.97
+		477 : 0.01
+		478 : 0.01
+		479 : 0.01
+state 414 ARTCO20
+	action 0
+		480 : 0.01
+		481 : 0.01
+		482 : 0.97
+		483 : 0.01
+state 415 ARTCO21
+	action 0
+		484 : 0.01
+		485 : 0.01
+		486 : 0.97
+		487 : 0.01
+state 416 ARTCO22
+	action 0
+		488 : 0.97
+		489 : 0.01
+		490 : 0.01
+		491 : 0.01
+state 417 ARTCO20
+	action 0
+		492 : 0.01
+		493 : 0.01
+		494 : 0.97
+		495 : 0.01
+state 418 ARTCO21
+	action 0
+		496 : 0.01
+		497 : 0.01
+		498 : 0.97
+		499 : 0.01
+state 419 ARTCO22
+	action 0
+		500 : 0.97
+		501 : 0.01
+		502 : 0.01
+		503 : 0.01
+state 420 ARTCO20
+	action 0
+		504 : 0.01
+		505 : 0.01
+		506 : 0.97
+		507 : 0.01
+state 421 ARTCO21
+	action 0
+		508 : 0.01
+		509 : 0.01
+		510 : 0.97
+		511 : 0.01
+state 422 ARTCO22
+	action 0
+		512 : 0.97
+		513 : 0.01
+		514 : 0.01
+		515 : 0.01
+state 423 ARTCO20
+	action 0
+		516 : 0.01
+		517 : 0.01
+		518 : 0.97
+		519 : 0.01
+state 424 ARTCO21
+	action 0
+		520 : 0.01
+		521 : 0.01
+		522 : 0.97
+		523 : 0.01
+state 425 ARTCO22
+	action 0
+		524 : 0.97
+		525 : 0.01
+		526 : 0.01
+		527 : 0.01
+state 426 ARTCO20
+	action 0
+		528 : 0.01
+		529 : 0.01
+		530 : 0.97
+		531 : 0.01
+state 427 ARTCO21
+	action 0
+		532 : 0.01
+		533 : 0.01
+		534 : 0.97
+		535 : 0.01
+state 428 ARTCO22
+	action 0
+		536 : 0.97
+		537 : 0.01
+		538 : 0.01
+		539 : 0.01
+state 429 ARTCO20
+	action 0
+		540 : 0.01
+		541 : 0.01
+		542 : 0.97
+		543 : 0.01
+state 430 ARTCO21
+	action 0
+		544 : 0.01
+		545 : 0.01
+		546 : 0.97
+		547 : 0.01
+state 431 ARTCO22
+	action 0
+		548 : 0.97
+		549 : 0.01
+		550 : 0.01
+		551 : 0.01
+state 432 ARTCO20
+	action 0
+		456 : 0.01
+		457 : 0.01
+		458 : 0.01
+		459 : 0.97
+state 433 ARTCO21
+	action 0
+		460 : 0.01
+		461 : 0.01
+		462 : 0.01
+		463 : 0.97
+state 434 ARTCO22
+	action 0
+		464 : 0.01
+		465 : 0.01
+		466 : 0.01
+		467 : 0.97
+state 435 ARTCO20
+	action 0
+		468 : 0.01
+		469 : 0.01
+		470 : 0.01
+		471 : 0.97
+state 436 ARTCO21
+	action 0
+		472 : 0.01
+		473 : 0.01
+		474 : 0.01
+		475 : 0.97
+state 437 ARTCO22
+	action 0
+		476 : 0.01
+		477 : 0.01
+		478 : 0.01
+		479 : 0.97
+state 438 ARTCO20
+	action 0
+		480 : 0.01
+		481 : 0.01
+		482 : 0.01
+		483 : 0.97
+state 439 ARTCO21
+	action 0
+		484 : 0.01
+		485 : 0.01
+		486 : 0.01
+		487 : 0.97
+state 440 ARTCO22
+	action 0
+		488 : 0.01
+		489 : 0.01
+		490 : 0.01
+		491 : 0.97
+state 441 ARTCO20
+	action 0
+		492 : 0.01
+		493 : 0.01
+		494 : 0.01
+		495 : 0.97
+state 442 ARTCO21
+	action 0
+		496 : 0.01
+		497 : 0.01
+		498 : 0.01
+		499 : 0.97
+state 443 ARTCO22
+	action 0
+		500 : 0.01
+		501 : 0.01
+		502 : 0.01
+		503 : 0.97
+state 444 ARTCO20
+	action 0
+		504 : 0.01
+		505 : 0.01
+		506 : 0.01
+		507 : 0.97
+state 445 ARTCO21
+	action 0
+		508 : 0.01
+		509 : 0.01
+		510 : 0.01
+		511 : 0.97
+state 446 ARTCO22
+	action 0
+		512 : 0.01
+		513 : 0.01
+		514 : 0.01
+		515 : 0.97
+state 447 ARTCO20
+	action 0
+		516 : 0.01
+		517 : 0.01
+		518 : 0.01
+		519 : 0.97
+state 448 ARTCO21
+	action 0
+		520 : 0.01
+		521 : 0.01
+		522 : 0.01
+		523 : 0.97
+state 449 ARTCO22
+	action 0
+		524 : 0.01
+		525 : 0.01
+		526 : 0.01
+		527 : 0.97
+state 450 ARTCO20
+	action 0
+		528 : 0.01
+		529 : 0.01
+		530 : 0.01
+		531 : 0.97
+state 451 ARTCO21
+	action 0
+		532 : 0.01
+		533 : 0.01
+		534 : 0.01
+		535 : 0.97
+state 452 ARTCO22
+	action 0
+		536 : 0.01
+		537 : 0.01
+		538 : 0.01
+		539 : 0.97
+state 453 ARTCO20
+	action 0
+		540 : 0.01
+		541 : 0.01
+		542 : 0.01
+		543 : 0.97
+state 454 ARTCO21
+	action 0
+		544 : 0.01
+		545 : 0.01
+		546 : 0.01
+		547 : 0.97
+state 455 ARTCO22
+	action 0
+		548 : 0.01
+		549 : 0.01
+		550 : 0.01
+		551 : 0.97
+state 456 EXPCO20
+	action 0
+		552 : 0.05
+		553 : 0.95
+state 457 EXPCO21
+	action 0
+		552 : 0.05
+		553 : 0.95
+state 458 EXPCO22
+	action 0
+		552 : 0.05
+		553 : 0.95
+state 459 EXPCO23
+	action 0
+		552 : 0.05
+		553 : 0.95
+state 460 EXPCO20
+	action 0
+		554 : 0.05
+		555 : 0.95
+state 461 EXPCO21
+	action 0
+		554 : 0.05
+		555 : 0.95
+state 462 EXPCO22
+	action 0
+		554 : 0.05
+		555 : 0.95
+state 463 EXPCO23
+	action 0
+		554 : 0.05
+		555 : 0.95
+state 464 EXPCO20
+	action 0
+		556 : 0.05
+		557 : 0.95
+state 465 EXPCO21
+	action 0
+		556 : 0.05
+		557 : 0.95
+state 466 EXPCO22
+	action 0
+		556 : 0.05
+		557 : 0.95
+state 467 EXPCO23
+	action 0
+		556 : 0.05
+		557 : 0.95
+state 468 EXPCO20
+	action 0
+		558 : 0.05
+		559 : 0.95
+state 469 EXPCO21
+	action 0
+		558 : 0.05
+		559 : 0.95
+state 470 EXPCO22
+	action 0
+		558 : 0.05
+		559 : 0.95
+state 471 EXPCO23
+	action 0
+		558 : 0.05
+		559 : 0.95
+state 472 EXPCO20
+	action 0
+		560 : 0.05
+		561 : 0.95
+state 473 EXPCO21
+	action 0
+		560 : 0.05
+		561 : 0.95
+state 474 EXPCO22
+	action 0
+		560 : 0.05
+		561 : 0.95
+state 475 EXPCO23
+	action 0
+		560 : 0.05
+		561 : 0.95
+state 476 EXPCO20
+	action 0
+		562 : 0.05
+		563 : 0.95
+state 477 EXPCO21
+	action 0
+		562 : 0.05
+		563 : 0.95
+state 478 EXPCO22
+	action 0
+		562 : 0.05
+		563 : 0.95
+state 479 EXPCO23
+	action 0
+		562 : 0.05
+		563 : 0.95
+state 480 EXPCO20
+	action 0
+		564 : 0.05
+		565 : 0.95
+state 481 EXPCO21
+	action 0
+		564 : 0.05
+		565 : 0.95
+state 482 EXPCO22
+	action 0
+		564 : 0.05
+		565 : 0.95
+state 483 EXPCO23
+	action 0
+		564 : 0.05
+		565 : 0.95
+state 484 EXPCO20
+	action 0
+		566 : 0.05
+		567 : 0.95
+state 485 EXPCO21
+	action 0
+		566 : 0.05
+		567 : 0.95
+state 486 EXPCO22
+	action 0
+		566 : 0.05
+		567 : 0.95
+state 487 EXPCO23
+	action 0
+		566 : 0.05
+		567 : 0.95
+state 488 EXPCO20
+	action 0
+		568 : 0.05
+		569 : 0.95
+state 489 EXPCO21
+	action 0
+		568 : 0.05
+		569 : 0.95
+state 490 EXPCO22
+	action 0
+		568 : 0.05
+		569 : 0.95
+state 491 EXPCO23
+	action 0
+		568 : 0.05
+		569 : 0.95
+state 492 EXPCO20
+	action 0
+		570 : 0.05
+		571 : 0.95
+state 493 EXPCO21
+	action 0
+		570 : 0.05
+		571 : 0.95
+state 494 EXPCO22
+	action 0
+		570 : 0.05
+		571 : 0.95
+state 495 EXPCO23
+	action 0
+		570 : 0.05
+		571 : 0.95
+state 496 EXPCO20
+	action 0
+		572 : 0.05
+		573 : 0.95
+state 497 EXPCO21
+	action 0
+		572 : 0.05
+		573 : 0.95
+state 498 EXPCO22
+	action 0
+		572 : 0.05
+		573 : 0.95
+state 499 EXPCO23
+	action 0
+		572 : 0.05
+		573 : 0.95
+state 500 EXPCO20
+	action 0
+		574 : 0.05
+		575 : 0.95
+state 501 EXPCO21
+	action 0
+		574 : 0.05
+		575 : 0.95
+state 502 EXPCO22
+	action 0
+		574 : 0.05
+		575 : 0.95
+state 503 EXPCO23
+	action 0
+		574 : 0.05
+		575 : 0.95
+state 504 EXPCO20
+	action 0
+		576 : 0.05
+		577 : 0.95
+state 505 EXPCO21
+	action 0
+		576 : 0.05
+		577 : 0.95
+state 506 EXPCO22
+	action 0
+		576 : 0.05
+		577 : 0.95
+state 507 EXPCO23
+	action 0
+		576 : 0.05
+		577 : 0.95
+state 508 EXPCO20
+	action 0
+		578 : 0.05
+		579 : 0.95
+state 509 EXPCO21
+	action 0
+		578 : 0.05
+		579 : 0.95
+state 510 EXPCO22
+	action 0
+		578 : 0.05
+		579 : 0.95
+state 511 EXPCO23
+	action 0
+		578 : 0.05
+		579 : 0.95
+state 512 EXPCO20
+	action 0
+		580 : 0.05
+		581 : 0.95
+state 513 EXPCO21
+	action 0
+		580 : 0.05
+		581 : 0.95
+state 514 EXPCO22
+	action 0
+		580 : 0.05
+		581 : 0.95
+state 515 EXPCO23
+	action 0
+		580 : 0.05
+		581 : 0.95
+state 516 EXPCO20
+	action 0
+		582 : 0.05
+		583 : 0.95
+state 517 EXPCO21
+	action 0
+		582 : 0.05
+		583 : 0.95
+state 518 EXPCO22
+	action 0
+		582 : 0.05
+		583 : 0.95
+state 519 EXPCO23
+	action 0
+		582 : 0.05
+		583 : 0.95
+state 520 EXPCO20
+	action 0
+		584 : 0.05
+		585 : 0.95
+state 521 EXPCO21
+	action 0
+		584 : 0.05
+		585 : 0.95
+state 522 EXPCO22
+	action 0
+		584 : 0.05
+		585 : 0.95
+state 523 EXPCO23
+	action 0
+		584 : 0.05
+		585 : 0.95
+state 524 EXPCO20
+	action 0
+		586 : 0.05
+		587 : 0.95
+state 525 EXPCO21
+	action 0
+		586 : 0.05
+		587 : 0.95
+state 526 EXPCO22
+	action 0
+		586 : 0.05
+		587 : 0.95
+state 527 EXPCO23
+	action 0
+		586 : 0.05
+		587 : 0.95
+state 528 EXPCO20
+	action 0
+		588 : 0.05
+		589 : 0.95
+state 529 EXPCO21
+	action 0
+		588 : 0.05
+		589 : 0.95
+state 530 EXPCO22
+	action 0
+		588 : 0.05
+		589 : 0.95
+state 531 EXPCO23
+	action 0
+		588 : 0.05
+		589 : 0.95
+state 532 EXPCO20
+	action 0
+		590 : 0.05
+		591 : 0.95
+state 533 EXPCO21
+	action 0
+		590 : 0.05
+		591 : 0.95
+state 534 EXPCO22
+	action 0
+		590 : 0.05
+		591 : 0.95
+state 535 EXPCO23
+	action 0
+		590 : 0.05
+		591 : 0.95
+state 536 EXPCO20
+	action 0
+		592 : 0.05
+		593 : 0.95
+state 537 EXPCO21
+	action 0
+		592 : 0.05
+		593 : 0.95
+state 538 EXPCO22
+	action 0
+		592 : 0.05
+		593 : 0.95
+state 539 EXPCO23
+	action 0
+		592 : 0.05
+		593 : 0.95
+state 540 EXPCO20
+	action 0
+		594 : 0.05
+		595 : 0.95
+state 541 EXPCO21
+	action 0
+		594 : 0.05
+		595 : 0.95
+state 542 EXPCO22
+	action 0
+		594 : 0.05
+		595 : 0.95
+state 543 EXPCO23
+	action 0
+		594 : 0.05
+		595 : 0.95
+state 544 EXPCO20
+	action 0
+		596 : 0.05
+		597 : 0.95
+state 545 EXPCO21
+	action 0
+		596 : 0.05
+		597 : 0.95
+state 546 EXPCO22
+	action 0
+		596 : 0.05
+		597 : 0.95
+state 547 EXPCO23
+	action 0
+		596 : 0.05
+		597 : 0.95
+state 548 EXPCO20
+	action 0
+		598 : 0.05
+		599 : 0.95
+state 549 EXPCO21
+	action 0
+		598 : 0.05
+		599 : 0.95
+state 550 EXPCO22
+	action 0
+		598 : 0.05
+		599 : 0.95
+state 551 EXPCO23
+	action 0
+		598 : 0.05
+		599 : 0.95
+state 552 FIO20
+	action 0
+		600 : 1
+state 553 FIO21
+	action 0
+		600 : 0.99
+		601 : 0.01
+state 554 FIO20
+	action 0
+		602 : 1
+state 555 FIO21
+	action 0
+		602 : 0.99
+		603 : 0.01
+state 556 FIO20
+	action 0
+		604 : 1
+state 557 FIO21
+	action 0
+		604 : 0.99
+		605 : 0.01
+state 558 FIO20
+	action 0
+		600 : 0.95
+		601 : 0.04
+		606 : 0.01
+state 559 FIO21
+	action 0
+		600 : 0.95
+		601 : 0.04
+		606 : 0.01
+state 560 FIO20
+	action 0
+		602 : 0.95
+		603 : 0.04
+		607 : 0.01
+state 561 FIO21
+	action 0
+		602 : 0.95
+		603 : 0.04
+		607 : 0.01
+state 562 FIO20
+	action 0
+		604 : 0.95
+		605 : 0.04
+		608 : 0.01
+state 563 FIO21
+	action 0
+		604 : 0.95
+		605 : 0.04
+		608 : 0.01
+state 564 FIO20
+	action 0
+		600 : 1
+state 565 FIO21
+	action 0
+		600 : 0.95
+		601 : 0.04
+		606 : 0.01
+state 566 FIO20
+	action 0
+		602 : 1
+state 567 FIO21
+	action 0
+		602 : 0.95
+		603 : 0.04
+		607 : 0.01
+state 568 FIO20
+	action 0
+		604 : 1
+state 569 FIO21
+	action 0
+		604 : 0.95
+		605 : 0.04
+		608 : 0.01
+state 570 FIO20
+	action 0
+		600 : 0.01
+		601 : 0.95
+		606 : 0.04
+state 571 FIO21
+	action 0
+		600 : 0.01
+		601 : 0.01
+		606 : 0.98
+state 572 FIO20
+	action 0
+		602 : 0.01
+		603 : 0.95
+		607 : 0.04
+state 573 FIO21
+	action 0
+		602 : 0.01
+		603 : 0.01
+		607 : 0.98
+state 574 FIO20
+	action 0
+		604 : 0.01
+		605 : 0.95
+		608 : 0.04
+state 575 FIO21
+	action 0
+		604 : 0.01
+		605 : 0.01
+		608 : 0.98
+state 576 FIO20
+	action 0
+		609 : 1
+state 577 FIO21
+	action 0
+		609 : 0.99
+		610 : 0.01
+state 578 FIO20
+	action 0
+		611 : 1
+state 579 FIO21
+	action 0
+		611 : 0.99
+		612 : 0.01
+state 580 FIO20
+	action 0
+		613 : 1
+state 581 FIO21
+	action 0
+		613 : 0.99
+		614 : 0.01
+state 582 FIO20
+	action 0
+		609 : 0.95
+		610 : 0.04
+		615 : 0.01
+state 583 FIO21
+	action 0
+		609 : 0.95
+		610 : 0.04
+		615 : 0.01
+state 584 FIO20
+	action 0
+		611 : 0.95
+		612 : 0.04
+		616 : 0.01
+state 585 FIO21
+	action 0
+		611 : 0.95
+		612 : 0.04
+		616 : 0.01
+state 586 FIO20
+	action 0
+		613 : 0.95
+		614 : 0.04
+		617 : 0.01
+state 587 FIO21
+	action 0
+		613 : 0.95
+		614 : 0.04
+		617 : 0.01
+state 588 FIO20
+	action 0
+		609 : 1
+state 589 FIO21
+	action 0
+		609 : 0.95
+		610 : 0.04
+		615 : 0.01
+state 590 FIO20
+	action 0
+		611 : 1
+state 591 FIO21
+	action 0
+		611 : 0.95
+		612 : 0.04
+		616 : 0.01
+state 592 FIO20
+	action 0
+		613 : 1
+state 593 FIO21
+	action 0
+		613 : 0.95
+		614 : 0.04
+		617 : 0.01
+state 594 FIO20
+	action 0
+		609 : 0.01
+		610 : 0.95
+		615 : 0.04
+state 595 FIO21
+	action 0
+		609 : 0.01
+		610 : 0.01
+		615 : 0.98
+state 596 FIO20
+	action 0
+		611 : 0.01
+		612 : 0.95
+		616 : 0.04
+state 597 FIO21
+	action 0
+		611 : 0.01
+		612 : 0.01
+		616 : 0.98
+state 598 FIO20
+	action 0
+		613 : 0.01
+		614 : 0.95
+		617 : 0.04
+state 599 FIO21
+	action 0
+		613 : 0.01
+		614 : 0.01
+		617 : 0.98
+state 600 PVSAT0
+	action 0
+		618 : 0.98
+		619 : 0.01
+		620 : 0.01
+state 601 PVSAT1
+	action 0
+		618 : 0.01
+		619 : 0.98
+		620 : 0.01
+state 602 PVSAT0
+	action 0
+		621 : 0.98
+		622 : 0.01
+		623 : 0.01
+state 603 PVSAT1
+	action 0
+		621 : 0.01
+		622 : 0.98
+		623 : 0.01
+state 604 PVSAT0
+	action 0
+		624 : 0.98
+		625 : 0.01
+		626 : 0.01
+state 605 PVSAT1
+	action 0
+		624 : 0.01
+		625 : 0.98
+		626 : 0.01
+state 606 PVSAT2
+	action 0
+		618 : 0.01
+		619 : 0.01
+		620 : 0.98
+state 607 PVSAT2
+	action 0
+		621 : 0.01
+		622 : 0.01
+		623 : 0.98
+state 608 PVSAT2
+	action 0
+		624 : 0.01
+		625 : 0.01
+		626 : 0.98
+state 609 PVSAT0
+	action 0
+		618 : 0.98
+		619 : 0.01
+		620 : 0.01
+state 610 PVSAT1
+	action 0
+		618 : 0.98
+		619 : 0.01
+		620 : 0.01
+state 611 PVSAT0
+	action 0
+		621 : 0.98
+		622 : 0.01
+		623 : 0.01
+state 612 PVSAT1
+	action 0
+		621 : 0.98
+		622 : 0.01
+		623 : 0.01
+state 613 PVSAT0
+	action 0
+		624 : 0.98
+		625 : 0.01
+		626 : 0.01
+state 614 PVSAT1
+	action 0
+		624 : 0.98
+		625 : 0.01
+		626 : 0.01
+state 615 PVSAT2
+	action 0
+		618 : 0.69
+		619 : 0.3
+		620 : 0.01
+state 616 PVSAT2
+	action 0
+		621 : 0.69
+		622 : 0.3
+		623 : 0.01
+state 617 PVSAT2
+	action 0
+		624 : 0.69
+		625 : 0.3
+		626 : 0.01
+state 618 SAO20
+	action 0
+		627 : 0.01
+		628 : 0.99
+state 619 SAO21
+	action 0
+		629 : 0.01
+		630 : 0.99
+state 620 SAO22
+	action 0
+		631 : 0.01
+		632 : 0.99
+state 621 SAO20
+	action 0
+		633 : 0.01
+		634 : 0.99
+state 622 SAO21
+	action 0
+		635 : 0.01
+		636 : 0.99
+state 623 SAO22
+	action 0
+		637 : 0.01
+		638 : 0.99
+state 624 SAO20
+	action 0
+		639 : 0.01
+		640 : 0.99
+state 625 SAO21
+	action 0
+		641 : 0.01
+		642 : 0.99
+state 626 SAO22
+	action 0
+		643 : 0.01
+		644 : 0.99
+state 627 ANAPHYLAXIS0
+	action 0
+		645 : 0.98
+		646 : 0.01
+		647 : 0.01
+state 628 ANAPHYLAXIS1
+	action 0
+		645 : 0.3
+		646 : 0.4
+		647 : 0.3
+state 629 ANAPHYLAXIS0
+	action 0
+		648 : 0.98
+		649 : 0.01
+		650 : 0.01
+state 630 ANAPHYLAXIS1
+	action 0
+		648 : 0.3
+		649 : 0.4
+		650 : 0.3
+state 631 ANAPHYLAXIS0
+	action 0
+		651 : 0.98
+		652 : 0.01
+		653 : 0.01
+state 632 ANAPHYLAXIS1
+	action 0
+		651 : 0.3
+		652 : 0.4
+		653 : 0.3
+state 633 ANAPHYLAXIS0
+	action 0
+		654 : 0.98
+		655 : 0.01
+		656 : 0.01
+state 634 ANAPHYLAXIS1
+	action 0
+		654 : 0.3
+		655 : 0.4
+		656 : 0.3
+state 635 ANAPHYLAXIS0
+	action 0
+		657 : 0.98
+		658 : 0.01
+		659 : 0.01
+state 636 ANAPHYLAXIS1
+	action 0
+		657 : 0.3
+		658 : 0.4
+		659 : 0.3
+state 637 ANAPHYLAXIS0
+	action 0
+		660 : 0.98
+		661 : 0.01
+		662 : 0.01
+state 638 ANAPHYLAXIS1
+	action 0
+		660 : 0.3
+		661 : 0.4
+		662 : 0.3
+state 639 ANAPHYLAXIS0
+	action 0
+		663 : 0.98
+		664 : 0.01
+		665 : 0.01
+state 640 ANAPHYLAXIS1
+	action 0
+		663 : 0.3
+		664 : 0.4
+		665 : 0.3
+state 641 ANAPHYLAXIS0
+	action 0
+		666 : 0.98
+		667 : 0.01
+		668 : 0.01
+state 642 ANAPHYLAXIS1
+	action 0
+		666 : 0.3
+		667 : 0.4
+		668 : 0.3
+state 643 ANAPHYLAXIS0
+	action 0
+		669 : 0.98
+		670 : 0.01
+		671 : 0.01
+state 644 ANAPHYLAXIS1
+	action 0
+		669 : 0.3
+		670 : 0.4
+		671 : 0.3
+state 645 TPR0
+	action 0
+		672 : 0.1
+		673 : 0.9
+state 646 TPR1
+	action 0
+		674 : 0.1
+		675 : 0.9
+state 647 TPR2
+	action 0
+		676 : 0.1
+		677 : 0.9
+state 648 TPR0
+	action 0
+		678 : 0.1
+		679 : 0.9
+state 649 TPR1
+	action 0
+		680 : 0.1
+		681 : 0.9
+state 650 TPR2
+	action 0
+		682 : 0.1
+		683 : 0.9
+state 651 TPR0
+	action 0
+		684 : 0.1
+		685 : 0.9
+state 652 TPR1
+	action 0
+		686 : 0.1
+		687 : 0.9
+state 653 TPR2
+	action 0
+		688 : 0.1
+		689 : 0.9
+state 654 TPR0
+	action 0
+		690 : 0.1
+		691 : 0.9
+state 655 TPR1
+	action 0
+		692 : 0.1
+		693 : 0.9
+state 656 TPR2
+	action 0
+		694 : 0.1
+		695 : 0.9
+state 657 TPR0
+	action 0
+		696 : 0.1
+		697 : 0.9
+state 658 TPR1
+	action 0
+		698 : 0.1
+		699 : 0.9
+state 659 TPR2
+	action 0
+		700 : 0.1
+		701 : 0.9
+state 660 TPR0
+	action 0
+		702 : 0.1
+		703 : 0.9
+state 661 TPR1
+	action 0
+		704 : 0.1
+		705 : 0.9
+state 662 TPR2
+	action 0
+		706 : 0.1
+		707 : 0.9
+state 663 TPR0
+	action 0
+		708 : 0.1
+		709 : 0.9
+state 664 TPR1
+	action 0
+		710 : 0.1
+		711 : 0.9
+state 665 TPR2
+	action 0
+		712 : 0.1
+		713 : 0.9
+state 666 TPR0
+	action 0
+		714 : 0.1
+		715 : 0.9
+state 667 TPR1
+	action 0
+		716 : 0.1
+		717 : 0.9
+state 668 TPR2
+	action 0
+		718 : 0.1
+		719 : 0.9
+state 669 TPR0
+	action 0
+		720 : 0.1
+		721 : 0.9
+state 670 TPR1
+	action 0
+		722 : 0.1
+		723 : 0.9
+state 671 TPR2
+	action 0
+		724 : 0.1
+		725 : 0.9
+state 672 INSUFFANESTH0
+	action 0
+		726 : 0.01
+		727 : 0.99
+state 673 INSUFFANESTH1
+	action 0
+		726 : 0.01
+		727 : 0.99
+state 674 INSUFFANESTH0
+	action 0
+		728 : 0.01
+		729 : 0.99
+state 675 INSUFFANESTH1
+	action 0
+		728 : 0.05
+		729 : 0.95
+state 676 INSUFFANESTH0
+	action 0
+		730 : 0.7
+		731 : 0.3
+state 677 INSUFFANESTH1
+	action 0
+		730 : 0.7
+		731 : 0.3
+state 678 INSUFFANESTH0
+	action 0
+		726 : 0.01
+		727 : 0.99
+state 679 INSUFFANESTH1
+	action 0
+		726 : 0.01
+		727 : 0.99
+state 680 INSUFFANESTH0
+	action 0
+		728 : 0.05
+		729 : 0.95
+state 681 INSUFFANESTH1
+	action 0
+		728 : 0.05
+		729 : 0.95
+state 682 INSUFFANESTH0
+	action 0
+		730 : 0.7
+		731 : 0.3
+state 683 INSUFFANESTH1
+	action 0
+		730 : 0.95
+		731 : 0.05
+state 684 INSUFFANESTH0
+	action 0
+		726 : 0.01
+		727 : 0.99
+state 685 INSUFFANESTH1
+	action 0
+		726 : 0.05
+		727 : 0.95
+state 686 INSUFFANESTH0
+	action 0
+		728 : 0.05
+		729 : 0.95
+state 687 INSUFFANESTH1
+	action 0
+		728 : 0.05
+		729 : 0.95
+state 688 INSUFFANESTH0
+	action 0
+		730 : 0.95
+		731 : 0.05
+state 689 INSUFFANESTH1
+	action 0
+		730 : 0.95
+		731 : 0.05
+state 690 INSUFFANESTH0
+	action 0
+		726 : 0.01
+		727 : 0.99
+state 691 INSUFFANESTH1
+	action 0
+		726 : 0.01
+		727 : 0.99
+state 692 INSUFFANESTH0
+	action 0
+		728 : 0.01
+		729 : 0.99
+state 693 INSUFFANESTH1
+	action 0
+		728 : 0.05
+		729 : 0.95
+state 694 INSUFFANESTH0
+	action 0
+		730 : 0.7
+		731 : 0.3
+state 695 INSUFFANESTH1
+	action 0
+		730 : 0.7
+		731 : 0.3
+state 696 INSUFFANESTH0
+	action 0
+		726 : 0.01
+		727 : 0.99
+state 697 INSUFFANESTH1
+	action 0
+		726 : 0.01
+		727 : 0.99
+state 698 INSUFFANESTH0
+	action 0
+		728 : 0.05
+		729 : 0.95
+state 699 INSUFFANESTH1
+	action 0
+		728 : 0.05
+		729 : 0.95
+state 700 INSUFFANESTH0
+	action 0
+		730 : 0.7
+		731 : 0.3
+state 701 INSUFFANESTH1
+	action 0
+		730 : 0.99
+		731 : 0.01
+state 702 INSUFFANESTH0
+	action 0
+		726 : 0.01
+		727 : 0.99
+state 703 INSUFFANESTH1
+	action 0
+		726 : 0.05
+		727 : 0.95
+state 704 INSUFFANESTH0
+	action 0
+		728 : 0.05
+		729 : 0.95
+state 705 INSUFFANESTH1
+	action 0
+		728 : 0.05
+		729 : 0.95
+state 706 INSUFFANESTH0
+	action 0
+		730 : 0.99
+		731 : 0.01
+state 707 INSUFFANESTH1
+	action 0
+		730 : 0.99
+		731 : 0.01
+state 708 INSUFFANESTH0
+	action 0
+		726 : 0.01
+		727 : 0.99
+state 709 INSUFFANESTH1
+	action 0
+		726 : 0.01
+		727 : 0.99
+state 710 INSUFFANESTH0
+	action 0
+		728 : 0.01
+		729 : 0.99
+state 711 INSUFFANESTH1
+	action 0
+		728 : 0.01
+		729 : 0.99
+state 712 INSUFFANESTH0
+	action 0
+		730 : 0.1
+		731 : 0.9
+state 713 INSUFFANESTH1
+	action 0
+		730 : 0.1
+		731 : 0.9
+state 714 INSUFFANESTH0
+	action 0
+		726 : 0.01
+		727 : 0.99
+state 715 INSUFFANESTH1
+	action 0
+		726 : 0.01
+		727 : 0.99
+state 716 INSUFFANESTH0
+	action 0
+		728 : 0.01
+		729 : 0.99
+state 717 INSUFFANESTH1
+	action 0
+		728 : 0.01
+		729 : 0.99
+state 718 INSUFFANESTH0
+	action 0
+		730 : 0.1
+		731 : 0.9
+state 719 INSUFFANESTH1
+	action 0
+		730 : 0.3
+		731 : 0.7
+state 720 INSUFFANESTH0
+	action 0
+		726 : 0.01
+		727 : 0.99
+state 721 INSUFFANESTH1
+	action 0
+		726 : 0.01
+		727 : 0.99
+state 722 INSUFFANESTH0
+	action 0
+		728 : 0.01
+		729 : 0.99
+state 723 INSUFFANESTH1
+	action 0
+		728 : 0.01
+		729 : 0.99
+state 724 INSUFFANESTH0
+	action 0
+		730 : 0.3
+		731 : 0.7
+state 725 INSUFFANESTH1
+	action 0
+		730 : 0.3
+		731 : 0.7
+state 726 CATECHOL0
+	action 0
+		732 : 0.05
+		733 : 0.9
+		734 : 0.05
+state 727 CATECHOL1
+	action 0
+		732 : 0.01
+		733 : 0.09
+		734 : 0.9
+state 728 CATECHOL0
+	action 0
+		735 : 0.05
+		736 : 0.9
+		737 : 0.05
+state 729 CATECHOL1
+	action 0
+		735 : 0.01
+		736 : 0.09
+		737 : 0.9
+state 730 CATECHOL0
+	action 0
+		738 : 0.05
+		739 : 0.9
+		740 : 0.05
+state 731 CATECHOL1
+	action 0
+		738 : 0.01
+		739 : 0.09
+		740 : 0.9
+state 732 HR0
+	action 0
+		741 : 0.1
+		742 : 0.9
+state 733 HR1
+	action 0
+		743 : 0.1
+		744 : 0.9
+state 734 HR2
+	action 0
+		745 : 0.1
+		746 : 0.9
+state 735 HR0
+	action 0
+		747 : 0.1
+		748 : 0.9
+state 736 HR1
+	action 0
+		749 : 0.1
+		750 : 0.9
+state 737 HR2
+	action 0
+		751 : 0.1
+		752 : 0.9
+state 738 HR0
+	action 0
+		753 : 0.1
+		754 : 0.9
+state 739 HR1
+	action 0
+		755 : 0.1
+		756 : 0.9
+state 740 HR2
+	action 0
+		757 : 0.1
+		758 : 0.9
+state 741 ERRCAUTER0
+	action 0
+		759 : 0.3333333
+		760 : 0.3333333
+		761 : 0.3333334
+state 742 ERRCAUTER1
+	action 0
+		762 : 0.3333333
+		763 : 0.3333333
+		764 : 0.3333334
+state 743 ERRCAUTER0
+	action 0
+		765 : 0.3333333
+		766 : 0.3333333
+		767 : 0.3333334
+state 744 ERRCAUTER1
+	action 0
+		768 : 0.98
+		769 : 0.01
+		770 : 0.01
+state 745 ERRCAUTER0
+	action 0
+		771 : 0.01
+		772 : 0.98
+		773 : 0.01
+state 746 ERRCAUTER1
+	action 0
+		774 : 0.01
+		775 : 0.01
+		776 : 0.98
+state 747 ERRCAUTER0
+	action 0
+		777 : 0.3333333
+		778 : 0.3333333
+		779 : 0.3333334
+state 748 ERRCAUTER1
+	action 0
+		780 : 0.3333333
+		781 : 0.3333333
+		782 : 0.3333334
+state 749 ERRCAUTER0
+	action 0
+		783 : 0.3333333
+		784 : 0.3333333
+		785 : 0.3333334
+state 750 ERRCAUTER1
+	action 0
+		786 : 0.98
+		787 : 0.01
+		788 : 0.01
+state 751 ERRCAUTER0
+	action 0
+		789 : 0.01
+		790 : 0.98
+		791 : 0.01
+state 752 ERRCAUTER1
+	action 0
+		792 : 0.01
+		793 : 0.01
+		794 : 0.98
+state 753 ERRCAUTER0
+	action 0
+		795 : 0.3333333
+		796 : 0.3333333
+		797 : 0.3333334
+state 754 ERRCAUTER1
+	action 0
+		798 : 0.3333333
+		799 : 0.3333333
+		800 : 0.3333334
+state 755 ERRCAUTER0
+	action 0
+		801 : 0.3333333
+		802 : 0.3333333
+		803 : 0.3333334
+state 756 ERRCAUTER1
+	action 0
+		804 : 0.98
+		805 : 0.01
+		806 : 0.01
+state 757 ERRCAUTER0
+	action 0
+		807 : 0.01
+		808 : 0.98
+		809 : 0.01
+state 758 ERRCAUTER1
+	action 0
+		810 : 0.01
+		811 : 0.01
+		812 : 0.98
+state 759 HRSAT0
+	action 0
+		813 : 0.3333333
+		814 : 0.3333333
+		815 : 0.3333334
+state 760 HRSAT1
+	action 0
+		813 : 0.3333333
+		814 : 0.3333333
+		815 : 0.3333334
+state 761 HRSAT2
+	action 0
+		813 : 0.3333333
+		814 : 0.3333333
+		815 : 0.3333334
+state 762 HRSAT0
+	action 0
+		813 : 0.3333333
+		814 : 0.3333333
+		815 : 0.3333334
+state 763 HRSAT1
+	action 0
+		813 : 0.3333333
+		814 : 0.3333333
+		815 : 0.3333334
+state 764 HRSAT2
+	action 0
+		813 : 0.3333333
+		814 : 0.3333333
+		815 : 0.3333334
+state 765 HRSAT0
+	action 0
+		816 : 0.3333333
+		817 : 0.3333333
+		818 : 0.3333334
+state 766 HRSAT1
+	action 0
+		816 : 0.3333333
+		817 : 0.3333333
+		818 : 0.3333334
+state 767 HRSAT2
+	action 0
+		816 : 0.3333333
+		817 : 0.3333333
+		818 : 0.3333334
+state 768 HRSAT0
+	action 0
+		816 : 0.98
+		817 : 0.01
+		818 : 0.01
+state 769 HRSAT1
+	action 0
+		816 : 0.98
+		817 : 0.01
+		818 : 0.01
+state 770 HRSAT2
+	action 0
+		816 : 0.98
+		817 : 0.01
+		818 : 0.01
+state 771 HRSAT0
+	action 0
+		819 : 0.01
+		820 : 0.98
+		821 : 0.01
+state 772 HRSAT1
+	action 0
+		819 : 0.01
+		820 : 0.98
+		821 : 0.01
+state 773 HRSAT2
+	action 0
+		819 : 0.01
+		820 : 0.98
+		821 : 0.01
+state 774 HRSAT0
+	action 0
+		819 : 0.01
+		820 : 0.01
+		821 : 0.98
+state 775 HRSAT1
+	action 0
+		819 : 0.01
+		820 : 0.01
+		821 : 0.98
+state 776 HRSAT2
+	action 0
+		819 : 0.01
+		820 : 0.01
+		821 : 0.98
+state 777 HRSAT0
+	action 0
+		822 : 0.3333333
+		823 : 0.3333333
+		824 : 0.3333334
+state 778 HRSAT1
+	action 0
+		822 : 0.3333333
+		823 : 0.3333333
+		824 : 0.3333334
+state 779 HRSAT2
+	action 0
+		822 : 0.3333333
+		823 : 0.3333333
+		824 : 0.3333334
+state 780 HRSAT0
+	action 0
+		822 : 0.3333333
+		823 : 0.3333333
+		824 : 0.3333334
+state 781 HRSAT1
+	action 0
+		822 : 0.3333333
+		823 : 0.3333333
+		824 : 0.3333334
+state 782 HRSAT2
+	action 0
+		822 : 0.3333333
+		823 : 0.3333333
+		824 : 0.3333334
+state 783 HRSAT0
+	action 0
+		825 : 0.3333333
+		826 : 0.3333333
+		827 : 0.3333334
+state 784 HRSAT1
+	action 0
+		825 : 0.3333333
+		826 : 0.3333333
+		827 : 0.3333334
+state 785 HRSAT2
+	action 0
+		825 : 0.3333333
+		826 : 0.3333333
+		827 : 0.3333334
+state 786 HRSAT0
+	action 0
+		825 : 0.98
+		826 : 0.01
+		827 : 0.01
+state 787 HRSAT1
+	action 0
+		825 : 0.98
+		826 : 0.01
+		827 : 0.01
+state 788 HRSAT2
+	action 0
+		825 : 0.98
+		826 : 0.01
+		827 : 0.01
+state 789 HRSAT0
+	action 0
+		828 : 0.01
+		829 : 0.98
+		830 : 0.01
+state 790 HRSAT1
+	action 0
+		828 : 0.01
+		829 : 0.98
+		830 : 0.01
+state 791 HRSAT2
+	action 0
+		828 : 0.01
+		829 : 0.98
+		830 : 0.01
+state 792 HRSAT0
+	action 0
+		828 : 0.01
+		829 : 0.01
+		830 : 0.98
+state 793 HRSAT1
+	action 0
+		828 : 0.01
+		829 : 0.01
+		830 : 0.98
+state 794 HRSAT2
+	action 0
+		828 : 0.01
+		829 : 0.01
+		830 : 0.98
+state 795 HRSAT0
+	action 0
+		831 : 0.3333333
+		832 : 0.3333333
+		833 : 0.3333334
+state 796 HRSAT1
+	action 0
+		831 : 0.3333333
+		832 : 0.3333333
+		833 : 0.3333334
+state 797 HRSAT2
+	action 0
+		831 : 0.3333333
+		832 : 0.3333333
+		833 : 0.3333334
+state 798 HRSAT0
+	action 0
+		831 : 0.3333333
+		832 : 0.3333333
+		833 : 0.3333334
+state 799 HRSAT1
+	action 0
+		831 : 0.3333333
+		832 : 0.3333333
+		833 : 0.3333334
+state 800 HRSAT2
+	action 0
+		831 : 0.3333333
+		832 : 0.3333333
+		833 : 0.3333334
+state 801 HRSAT0
+	action 0
+		834 : 0.3333333
+		835 : 0.3333333
+		836 : 0.3333334
+state 802 HRSAT1
+	action 0
+		834 : 0.3333333
+		835 : 0.3333333
+		836 : 0.3333334
+state 803 HRSAT2
+	action 0
+		834 : 0.3333333
+		835 : 0.3333333
+		836 : 0.3333334
+state 804 HRSAT0
+	action 0
+		834 : 0.98
+		835 : 0.01
+		836 : 0.01
+state 805 HRSAT1
+	action 0
+		834 : 0.98
+		835 : 0.01
+		836 : 0.01
+state 806 HRSAT2
+	action 0
+		834 : 0.98
+		835 : 0.01
+		836 : 0.01
+state 807 HRSAT0
+	action 0
+		837 : 0.01
+		838 : 0.98
+		839 : 0.01
+state 808 HRSAT1
+	action 0
+		837 : 0.01
+		838 : 0.98
+		839 : 0.01
+state 809 HRSAT2
+	action 0
+		837 : 0.01
+		838 : 0.98
+		839 : 0.01
+state 810 HRSAT0
+	action 0
+		837 : 0.01
+		838 : 0.01
+		839 : 0.98
+state 811 HRSAT1
+	action 0
+		837 : 0.01
+		838 : 0.01
+		839 : 0.98
+state 812 HRSAT2
+	action 0
+		837 : 0.01
+		838 : 0.01
+		839 : 0.98
+state 813 HREKG0
+	action 0
+		840 : 0.05
+		841 : 0.95
+state 814 HREKG1
+	action 0
+		840 : 0.05
+		841 : 0.95
+state 815 HREKG2
+	action 0
+		840 : 0.05
+		841 : 0.95
+state 816 HREKG0
+	action 0
+		842 : 0.05
+		843 : 0.95
+state 817 HREKG1
+	action 0
+		842 : 0.05
+		843 : 0.95
+state 818 HREKG2
+	action 0
+		842 : 0.05
+		843 : 0.95
+state 819 HREKG0
+	action 0
+		844 : 0.05
+		845 : 0.95
+state 820 HREKG1
+	action 0
+		844 : 0.05
+		845 : 0.95
+state 821 HREKG2
+	action 0
+		844 : 0.05
+		845 : 0.95
+state 822 HREKG0
+	action 0
+		846 : 0.05
+		847 : 0.95
+state 823 HREKG1
+	action 0
+		846 : 0.05
+		847 : 0.95
+state 824 HREKG2
+	action 0
+		846 : 0.05
+		847 : 0.95
+state 825 HREKG0
+	action 0
+		848 : 0.05
+		849 : 0.95
+state 826 HREKG1
+	action 0
+		848 : 0.05
+		849 : 0.95
+state 827 HREKG2
+	action 0
+		848 : 0.05
+		849 : 0.95
+state 828 HREKG0
+	action 0
+		850 : 0.05
+		851 : 0.95
+state 829 HREKG1
+	action 0
+		850 : 0.05
+		851 : 0.95
+state 830 HREKG2
+	action 0
+		850 : 0.05
+		851 : 0.95
+state 831 HREKG0
+	action 0
+		852 : 0.05
+		853 : 0.95
+state 832 HREKG1
+	action 0
+		852 : 0.05
+		853 : 0.95
+state 833 HREKG2
+	action 0
+		852 : 0.05
+		853 : 0.95
+state 834 HREKG0
+	action 0
+		854 : 0.05
+		855 : 0.95
+state 835 HREKG1
+	action 0
+		854 : 0.05
+		855 : 0.95
+state 836 HREKG2
+	action 0
+		854 : 0.05
+		855 : 0.95
+state 837 HREKG0
+	action 0
+		856 : 0.05
+		857 : 0.95
+state 838 HREKG1
+	action 0
+		856 : 0.05
+		857 : 0.95
+state 839 HREKG2
+	action 0
+		856 : 0.05
+		857 : 0.95
+state 840 ERRLOWOUTPUT0
+	action 0
+		858 : 0.98
+		859 : 0.01
+		860 : 0.01
+state 841 ERRLOWOUTPUT1
+	action 0
+		858 : 0.4
+		859 : 0.59
+		860 : 0.01
+state 842 ERRLOWOUTPUT0
+	action 0
+		861 : 0.3
+		862 : 0.4
+		863 : 0.3
+state 843 ERRLOWOUTPUT1
+	action 0
+		861 : 0.98
+		862 : 0.01
+		863 : 0.01
+state 844 ERRLOWOUTPUT0
+	action 0
+		864 : 0.01
+		865 : 0.98
+		866 : 0.01
+state 845 ERRLOWOUTPUT1
+	action 0
+		864 : 0.01
+		865 : 0.01
+		866 : 0.98
+state 846 ERRLOWOUTPUT0
+	action 0
+		867 : 0.98
+		868 : 0.01
+		869 : 0.01
+state 847 ERRLOWOUTPUT1
+	action 0
+		867 : 0.4
+		868 : 0.59
+		869 : 0.01
+state 848 ERRLOWOUTPUT0
+	action 0
+		870 : 0.3
+		871 : 0.4
+		872 : 0.3
+state 849 ERRLOWOUTPUT1
+	action 0
+		870 : 0.98
+		871 : 0.01
+		872 : 0.01
+state 850 ERRLOWOUTPUT0
+	action 0
+		873 : 0.01
+		874 : 0.98
+		875 : 0.01
+state 851 ERRLOWOUTPUT1
+	action 0
+		873 : 0.01
+		874 : 0.01
+		875 : 0.98
+state 852 ERRLOWOUTPUT0
+	action 0
+		876 : 0.98
+		877 : 0.01
+		878 : 0.01
+state 853 ERRLOWOUTPUT1
+	action 0
+		876 : 0.4
+		877 : 0.59
+		878 : 0.01
+state 854 ERRLOWOUTPUT0
+	action 0
+		879 : 0.3
+		880 : 0.4
+		881 : 0.3
+state 855 ERRLOWOUTPUT1
+	action 0
+		879 : 0.98
+		880 : 0.01
+		881 : 0.01
+state 856 ERRLOWOUTPUT0
+	action 0
+		882 : 0.01
+		883 : 0.98
+		884 : 0.01
+state 857 ERRLOWOUTPUT1
+	action 0
+		882 : 0.01
+		883 : 0.01
+		884 : 0.98
+state 858 HRBP0
+	action 0
+		885 : 0.2
+		886 : 0.8
+state 859 HRBP1
+	action 0
+		885 : 0.2
+		886 : 0.8
+state 860 HRBP2
+	action 0
+		885 : 0.2
+		886 : 0.8
+state 861 HRBP0
+	action 0
+		887 : 0.2
+		888 : 0.8
+state 862 HRBP1
+	action 0
+		887 : 0.2
+		888 : 0.8
+state 863 HRBP2
+	action 0
+		887 : 0.2
+		888 : 0.8
+state 864 HRBP0
+	action 0
+		889 : 0.2
+		890 : 0.8
+state 865 HRBP1
+	action 0
+		889 : 0.2
+		890 : 0.8
+state 866 HRBP2
+	action 0
+		889 : 0.2
+		890 : 0.8
+state 867 HRBP0
+	action 0
+		891 : 0.2
+		892 : 0.8
+state 868 HRBP1
+	action 0
+		891 : 0.2
+		892 : 0.8
+state 869 HRBP2
+	action 0
+		891 : 0.2
+		892 : 0.8
+state 870 HRBP0
+	action 0
+		893 : 0.2
+		894 : 0.8
+state 871 HRBP1
+	action 0
+		893 : 0.2
+		894 : 0.8
+state 872 HRBP2
+	action 0
+		893 : 0.2
+		894 : 0.8
+state 873 HRBP0
+	action 0
+		895 : 0.2
+		896 : 0.8
+state 874 HRBP1
+	action 0
+		895 : 0.2
+		896 : 0.8
+state 875 HRBP2
+	action 0
+		895 : 0.2
+		896 : 0.8
+state 876 HRBP0
+	action 0
+		897 : 0.2
+		898 : 0.8
+state 877 HRBP1
+	action 0
+		897 : 0.2
+		898 : 0.8
+state 878 HRBP2
+	action 0
+		897 : 0.2
+		898 : 0.8
+state 879 HRBP0
+	action 0
+		899 : 0.2
+		900 : 0.8
+state 880 HRBP1
+	action 0
+		899 : 0.2
+		900 : 0.8
+state 881 HRBP2
+	action 0
+		899 : 0.2
+		900 : 0.8
+state 882 HRBP0
+	action 0
+		901 : 0.2
+		902 : 0.8
+state 883 HRBP1
+	action 0
+		901 : 0.2
+		902 : 0.8
+state 884 HRBP2
+	action 0
+		901 : 0.2
+		902 : 0.8
+state 885 HYPOVOLEMIA0
+	action 0
+		903 : 0.05
+		904 : 0.95
+state 886 HYPOVOLEMIA1
+	action 0
+		905 : 0.05
+		906 : 0.95
+state 887 HYPOVOLEMIA0
+	action 0
+		907 : 0.05
+		908 : 0.95
+state 888 HYPOVOLEMIA1
+	action 0
+		909 : 0.05
+		910 : 0.95
+state 889 HYPOVOLEMIA0
+	action 0
+		911 : 0.05
+		912 : 0.95
+state 890 HYPOVOLEMIA1
+	action 0
+		913 : 0.05
+		914 : 0.95
+state 891 HYPOVOLEMIA0
+	action 0
+		915 : 0.05
+		916 : 0.95
+state 892 HYPOVOLEMIA1
+	action 0
+		917 : 0.05
+		918 : 0.95
+state 893 HYPOVOLEMIA0
+	action 0
+		919 : 0.05
+		920 : 0.95
+state 894 HYPOVOLEMIA1
+	action 0
+		921 : 0.05
+		922 : 0.95
+state 895 HYPOVOLEMIA0
+	action 0
+		923 : 0.05
+		924 : 0.95
+state 896 HYPOVOLEMIA1
+	action 0
+		925 : 0.05
+		926 : 0.95
+state 897 HYPOVOLEMIA0
+	action 0
+		927 : 0.05
+		928 : 0.95
+state 898 HYPOVOLEMIA1
+	action 0
+		929 : 0.05
+		930 : 0.95
+state 899 HYPOVOLEMIA0
+	action 0
+		931 : 0.05
+		932 : 0.95
+state 900 HYPOVOLEMIA1
+	action 0
+		933 : 0.05
+		934 : 0.95
+state 901 HYPOVOLEMIA0
+	action 0
+		935 : 0.05
+		936 : 0.95
+state 902 HYPOVOLEMIA1
+	action 0
+		937 : 0.05
+		938 : 0.95
+state 903 LVFAILURE0
+	action 0
+		939 : 0.98
+		940 : 0.01
+		941 : 0.01
+state 904 LVFAILURE1
+	action 0
+		942 : 0.5
+		943 : 0.49
+		944 : 0.01
+state 905 LVFAILURE0
+	action 0
+		945 : 0.95
+		946 : 0.04
+		947 : 0.01
+state 906 LVFAILURE1
+	action 0
+		948 : 0.05
+		949 : 0.9
+		950 : 0.05
+state 907 LVFAILURE0
+	action 0
+		951 : 0.98
+		952 : 0.01
+		953 : 0.01
+state 908 LVFAILURE1
+	action 0
+		954 : 0.5
+		955 : 0.49
+		956 : 0.01
+state 909 LVFAILURE0
+	action 0
+		957 : 0.95
+		958 : 0.04
+		959 : 0.01
+state 910 LVFAILURE1
+	action 0
+		960 : 0.05
+		961 : 0.9
+		962 : 0.05
+state 911 LVFAILURE0
+	action 0
+		963 : 0.98
+		964 : 0.01
+		965 : 0.01
+state 912 LVFAILURE1
+	action 0
+		966 : 0.5
+		967 : 0.49
+		968 : 0.01
+state 913 LVFAILURE0
+	action 0
+		969 : 0.95
+		970 : 0.04
+		971 : 0.01
+state 914 LVFAILURE1
+	action 0
+		972 : 0.05
+		973 : 0.9
+		974 : 0.05
+state 915 LVFAILURE0
+	action 0
+		975 : 0.98
+		976 : 0.01
+		977 : 0.01
+state 916 LVFAILURE1
+	action 0
+		978 : 0.5
+		979 : 0.49
+		980 : 0.01
+state 917 LVFAILURE0
+	action 0
+		981 : 0.95
+		982 : 0.04
+		983 : 0.01
+state 918 LVFAILURE1
+	action 0
+		984 : 0.05
+		985 : 0.9
+		986 : 0.05
+state 919 LVFAILURE0
+	action 0
+		987 : 0.98
+		988 : 0.01
+		989 : 0.01
+state 920 LVFAILURE1
+	action 0
+		990 : 0.5
+		991 : 0.49
+		992 : 0.01
+state 921 LVFAILURE0
+	action 0
+		993 : 0.95
+		994 : 0.04
+		995 : 0.01
+state 922 LVFAILURE1
+	action 0
+		996 : 0.05
+		997 : 0.9
+		998 : 0.05
+state 923 LVFAILURE0
+	action 0
+		999 : 0.98
+		1000 : 0.01
+		1001 : 0.01
+state 924 LVFAILURE1
+	action 0
+		1002 : 0.5
+		1003 : 0.49
+		1004 : 0.01
+state 925 LVFAILURE0
+	action 0
+		1005 : 0.95
+		1006 : 0.04
+		1007 : 0.01
+state 926 LVFAILURE1
+	action 0
+		1008 : 0.05
+		1009 : 0.9
+		1010 : 0.05
+state 927 LVFAILURE0
+	action 0
+		1011 : 0.98
+		1012 : 0.01
+		1013 : 0.01
+state 928 LVFAILURE1
+	action 0
+		1014 : 0.5
+		1015 : 0.49
+		1016 : 0.01
+state 929 LVFAILURE0
+	action 0
+		1017 : 0.95
+		1018 : 0.04
+		1019 : 0.01
+state 930 LVFAILURE1
+	action 0
+		1020 : 0.05
+		1021 : 0.9
+		1022 : 0.05
+state 931 LVFAILURE0
+	action 0
+		1023 : 0.98
+		1024 : 0.01
+		1025 : 0.01
+state 932 LVFAILURE1
+	action 0
+		1026 : 0.5
+		1027 : 0.49
+		1028 : 0.01
+state 933 LVFAILURE0
+	action 0
+		1029 : 0.95
+		1030 : 0.04
+		1031 : 0.01
+state 934 LVFAILURE1
+	action 0
+		1032 : 0.05
+		1033 : 0.9
+		1034 : 0.05
+state 935 LVFAILURE0
+	action 0
+		1035 : 0.98
+		1036 : 0.01
+		1037 : 0.01
+state 936 LVFAILURE1
+	action 0
+		1038 : 0.5
+		1039 : 0.49
+		1040 : 0.01
+state 937 LVFAILURE0
+	action 0
+		1041 : 0.95
+		1042 : 0.04
+		1043 : 0.01
+state 938 LVFAILURE1
+	action 0
+		1044 : 0.05
+		1045 : 0.9
+		1046 : 0.05
+state 939 STROKEVOLUME0
+	action 0
+		1047 : 0.98
+		1048 : 0.01
+		1049 : 0.01
+state 940 STROKEVOLUME1
+	action 0
+		1047 : 0.95
+		1048 : 0.04
+		1049 : 0.01
+state 941 STROKEVOLUME2
+	action 0
+		1047 : 0.3
+		1048 : 0.69
+		1049 : 0.01
+state 942 STROKEVOLUME0
+	action 0
+		1050 : 0.98
+		1051 : 0.01
+		1052 : 0.01
+state 943 STROKEVOLUME1
+	action 0
+		1050 : 0.95
+		1051 : 0.04
+		1052 : 0.01
+state 944 STROKEVOLUME2
+	action 0
+		1050 : 0.3
+		1051 : 0.69
+		1052 : 0.01
+state 945 STROKEVOLUME0
+	action 0
+		1053 : 0.98
+		1054 : 0.01
+		1055 : 0.01
+state 946 STROKEVOLUME1
+	action 0
+		1053 : 0.95
+		1054 : 0.04
+		1055 : 0.01
+state 947 STROKEVOLUME2
+	action 0
+		1053 : 0.3
+		1054 : 0.69
+		1055 : 0.01
+state 948 STROKEVOLUME0
+	action 0
+		1056 : 0.98
+		1057 : 0.01
+		1058 : 0.01
+state 949 STROKEVOLUME1
+	action 0
+		1056 : 0.95
+		1057 : 0.04
+		1058 : 0.01
+state 950 STROKEVOLUME2
+	action 0
+		1056 : 0.3
+		1057 : 0.69
+		1058 : 0.01
+state 951 STROKEVOLUME0
+	action 0
+		1047 : 0.95
+		1048 : 0.04
+		1049 : 0.01
+state 952 STROKEVOLUME1
+	action 0
+		1047 : 0.04
+		1048 : 0.95
+		1049 : 0.01
+state 953 STROKEVOLUME2
+	action 0
+		1047 : 0.01
+		1048 : 0.3
+		1049 : 0.69
+state 954 STROKEVOLUME0
+	action 0
+		1050 : 0.95
+		1051 : 0.04
+		1052 : 0.01
+state 955 STROKEVOLUME1
+	action 0
+		1050 : 0.04
+		1051 : 0.95
+		1052 : 0.01
+state 956 STROKEVOLUME2
+	action 0
+		1050 : 0.01
+		1051 : 0.3
+		1052 : 0.69
+state 957 STROKEVOLUME0
+	action 0
+		1053 : 0.95
+		1054 : 0.04
+		1055 : 0.01
+state 958 STROKEVOLUME1
+	action 0
+		1053 : 0.04
+		1054 : 0.95
+		1055 : 0.01
+state 959 STROKEVOLUME2
+	action 0
+		1053 : 0.01
+		1054 : 0.3
+		1055 : 0.69
+state 960 STROKEVOLUME0
+	action 0
+		1056 : 0.95
+		1057 : 0.04
+		1058 : 0.01
+state 961 STROKEVOLUME1
+	action 0
+		1056 : 0.04
+		1057 : 0.95
+		1058 : 0.01
+state 962 STROKEVOLUME2
+	action 0
+		1056 : 0.01
+		1057 : 0.3
+		1058 : 0.69
+state 963 STROKEVOLUME0
+	action 0
+		1047 : 0.8
+		1048 : 0.19
+		1049 : 0.01
+state 964 STROKEVOLUME1
+	action 0
+		1047 : 0.01
+		1048 : 0.04
+		1049 : 0.95
+state 965 STROKEVOLUME2
+	action 0
+		1047 : 0.01
+		1048 : 0.01
+		1049 : 0.98
+state 966 STROKEVOLUME0
+	action 0
+		1050 : 0.8
+		1051 : 0.19
+		1052 : 0.01
+state 967 STROKEVOLUME1
+	action 0
+		1050 : 0.01
+		1051 : 0.04
+		1052 : 0.95
+state 968 STROKEVOLUME2
+	action 0
+		1050 : 0.01
+		1051 : 0.01
+		1052 : 0.98
+state 969 STROKEVOLUME0
+	action 0
+		1053 : 0.8
+		1054 : 0.19
+		1055 : 0.01
+state 970 STROKEVOLUME1
+	action 0
+		1053 : 0.01
+		1054 : 0.04
+		1055 : 0.95
+state 971 STROKEVOLUME2
+	action 0
+		1053 : 0.01
+		1054 : 0.01
+		1055 : 0.98
+state 972 STROKEVOLUME0
+	action 0
+		1056 : 0.8
+		1057 : 0.19
+		1058 : 0.01
+state 973 STROKEVOLUME1
+	action 0
+		1056 : 0.01
+		1057 : 0.04
+		1058 : 0.95
+state 974 STROKEVOLUME2
+	action 0
+		1056 : 0.01
+		1057 : 0.01
+		1058 : 0.98
+state 975 STROKEVOLUME0
+	action 0
+		1059 : 0.98
+		1060 : 0.01
+		1061 : 0.01
+state 976 STROKEVOLUME1
+	action 0
+		1059 : 0.95
+		1060 : 0.04
+		1061 : 0.01
+state 977 STROKEVOLUME2
+	action 0
+		1059 : 0.3
+		1060 : 0.69
+		1061 : 0.01
+state 978 STROKEVOLUME0
+	action 0
+		1062 : 0.98
+		1063 : 0.01
+		1064 : 0.01
+state 979 STROKEVOLUME1
+	action 0
+		1062 : 0.95
+		1063 : 0.04
+		1064 : 0.01
+state 980 STROKEVOLUME2
+	action 0
+		1062 : 0.3
+		1063 : 0.69
+		1064 : 0.01
+state 981 STROKEVOLUME0
+	action 0
+		1065 : 0.98
+		1066 : 0.01
+		1067 : 0.01
+state 982 STROKEVOLUME1
+	action 0
+		1065 : 0.95
+		1066 : 0.04
+		1067 : 0.01
+state 983 STROKEVOLUME2
+	action 0
+		1065 : 0.3
+		1066 : 0.69
+		1067 : 0.01
+state 984 STROKEVOLUME0
+	action 0
+		1068 : 0.98
+		1069 : 0.01
+		1070 : 0.01
+state 985 STROKEVOLUME1
+	action 0
+		1068 : 0.95
+		1069 : 0.04
+		1070 : 0.01
+state 986 STROKEVOLUME2
+	action 0
+		1068 : 0.3
+		1069 : 0.69
+		1070 : 0.01
+state 987 STROKEVOLUME0
+	action 0
+		1059 : 0.95
+		1060 : 0.04
+		1061 : 0.01
+state 988 STROKEVOLUME1
+	action 0
+		1059 : 0.04
+		1060 : 0.95
+		1061 : 0.01
+state 989 STROKEVOLUME2
+	action 0
+		1059 : 0.01
+		1060 : 0.3
+		1061 : 0.69
+state 990 STROKEVOLUME0
+	action 0
+		1062 : 0.95
+		1063 : 0.04
+		1064 : 0.01
+state 991 STROKEVOLUME1
+	action 0
+		1062 : 0.04
+		1063 : 0.95
+		1064 : 0.01
+state 992 STROKEVOLUME2
+	action 0
+		1062 : 0.01
+		1063 : 0.3
+		1064 : 0.69
+state 993 STROKEVOLUME0
+	action 0
+		1065 : 0.95
+		1066 : 0.04
+		1067 : 0.01
+state 994 STROKEVOLUME1
+	action 0
+		1065 : 0.04
+		1066 : 0.95
+		1067 : 0.01
+state 995 STROKEVOLUME2
+	action 0
+		1065 : 0.01
+		1066 : 0.3
+		1067 : 0.69
+state 996 STROKEVOLUME0
+	action 0
+		1068 : 0.95
+		1069 : 0.04
+		1070 : 0.01
+state 997 STROKEVOLUME1
+	action 0
+		1068 : 0.04
+		1069 : 0.95
+		1070 : 0.01
+state 998 STROKEVOLUME2
+	action 0
+		1068 : 0.01
+		1069 : 0.3
+		1070 : 0.69
+state 999 STROKEVOLUME0
+	action 0
+		1059 : 0.8
+		1060 : 0.19
+		1061 : 0.01
+state 1000 STROKEVOLUME1
+	action 0
+		1059 : 0.01
+		1060 : 0.04
+		1061 : 0.95
+state 1001 STROKEVOLUME2
+	action 0
+		1059 : 0.01
+		1060 : 0.01
+		1061 : 0.98
+state 1002 STROKEVOLUME0
+	action 0
+		1062 : 0.8
+		1063 : 0.19
+		1064 : 0.01
+state 1003 STROKEVOLUME1
+	action 0
+		1062 : 0.01
+		1063 : 0.04
+		1064 : 0.95
+state 1004 STROKEVOLUME2
+	action 0
+		1062 : 0.01
+		1063 : 0.01
+		1064 : 0.98
+state 1005 STROKEVOLUME0
+	action 0
+		1065 : 0.8
+		1066 : 0.19
+		1067 : 0.01
+state 1006 STROKEVOLUME1
+	action 0
+		1065 : 0.01
+		1066 : 0.04
+		1067 : 0.95
+state 1007 STROKEVOLUME2
+	action 0
+		1065 : 0.01
+		1066 : 0.01
+		1067 : 0.98
+state 1008 STROKEVOLUME0
+	action 0
+		1068 : 0.8
+		1069 : 0.19
+		1070 : 0.01
+state 1009 STROKEVOLUME1
+	action 0
+		1068 : 0.01
+		1069 : 0.04
+		1070 : 0.95
+state 1010 STROKEVOLUME2
+	action 0
+		1068 : 0.01
+		1069 : 0.01
+		1070 : 0.98
+state 1011 STROKEVOLUME0
+	action 0
+		1071 : 0.98
+		1072 : 0.01
+		1073 : 0.01
+state 1012 STROKEVOLUME1
+	action 0
+		1071 : 0.95
+		1072 : 0.04
+		1073 : 0.01
+state 1013 STROKEVOLUME2
+	action 0
+		1071 : 0.3
+		1072 : 0.69
+		1073 : 0.01
+state 1014 STROKEVOLUME0
+	action 0
+		1074 : 0.98
+		1075 : 0.01
+		1076 : 0.01
+state 1015 STROKEVOLUME1
+	action 0
+		1074 : 0.95
+		1075 : 0.04
+		1076 : 0.01
+state 1016 STROKEVOLUME2
+	action 0
+		1074 : 0.3
+		1075 : 0.69
+		1076 : 0.01
+state 1017 STROKEVOLUME0
+	action 0
+		1077 : 0.98
+		1078 : 0.01
+		1079 : 0.01
+state 1018 STROKEVOLUME1
+	action 0
+		1077 : 0.95
+		1078 : 0.04
+		1079 : 0.01
+state 1019 STROKEVOLUME2
+	action 0
+		1077 : 0.3
+		1078 : 0.69
+		1079 : 0.01
+state 1020 STROKEVOLUME0
+	action 0
+		1080 : 0.98
+		1081 : 0.01
+		1082 : 0.01
+state 1021 STROKEVOLUME1
+	action 0
+		1080 : 0.95
+		1081 : 0.04
+		1082 : 0.01
+state 1022 STROKEVOLUME2
+	action 0
+		1080 : 0.3
+		1081 : 0.69
+		1082 : 0.01
+state 1023 STROKEVOLUME0
+	action 0
+		1071 : 0.95
+		1072 : 0.04
+		1073 : 0.01
+state 1024 STROKEVOLUME1
+	action 0
+		1071 : 0.04
+		1072 : 0.95
+		1073 : 0.01
+state 1025 STROKEVOLUME2
+	action 0
+		1071 : 0.01
+		1072 : 0.3
+		1073 : 0.69
+state 1026 STROKEVOLUME0
+	action 0
+		1074 : 0.95
+		1075 : 0.04
+		1076 : 0.01
+state 1027 STROKEVOLUME1
+	action 0
+		1074 : 0.04
+		1075 : 0.95
+		1076 : 0.01
+state 1028 STROKEVOLUME2
+	action 0
+		1074 : 0.01
+		1075 : 0.3
+		1076 : 0.69
+state 1029 STROKEVOLUME0
+	action 0
+		1077 : 0.95
+		1078 : 0.04
+		1079 : 0.01
+state 1030 STROKEVOLUME1
+	action 0
+		1077 : 0.04
+		1078 : 0.95
+		1079 : 0.01
+state 1031 STROKEVOLUME2
+	action 0
+		1077 : 0.01
+		1078 : 0.3
+		1079 : 0.69
+state 1032 STROKEVOLUME0
+	action 0
+		1080 : 0.95
+		1081 : 0.04
+		1082 : 0.01
+state 1033 STROKEVOLUME1
+	action 0
+		1080 : 0.04
+		1081 : 0.95
+		1082 : 0.01
+state 1034 STROKEVOLUME2
+	action 0
+		1080 : 0.01
+		1081 : 0.3
+		1082 : 0.69
+state 1035 STROKEVOLUME0
+	action 0
+		1071 : 0.8
+		1072 : 0.19
+		1073 : 0.01
+state 1036 STROKEVOLUME1
+	action 0
+		1071 : 0.01
+		1072 : 0.04
+		1073 : 0.95
+state 1037 STROKEVOLUME2
+	action 0
+		1071 : 0.01
+		1072 : 0.01
+		1073 : 0.98
+state 1038 STROKEVOLUME0
+	action 0
+		1074 : 0.8
+		1075 : 0.19
+		1076 : 0.01
+state 1039 STROKEVOLUME1
+	action 0
+		1074 : 0.01
+		1075 : 0.04
+		1076 : 0.95
+state 1040 STROKEVOLUME2
+	action 0
+		1074 : 0.01
+		1075 : 0.01
+		1076 : 0.98
+state 1041 STROKEVOLUME0
+	action 0
+		1077 : 0.8
+		1078 : 0.19
+		1079 : 0.01
+state 1042 STROKEVOLUME1
+	action 0
+		1077 : 0.01
+		1078 : 0.04
+		1079 : 0.95
+state 1043 STROKEVOLUME2
+	action 0
+		1077 : 0.01
+		1078 : 0.01
+		1079 : 0.98
+state 1044 STROKEVOLUME0
+	action 0
+		1080 : 0.8
+		1081 : 0.19
+		1082 : 0.01
+state 1045 STROKEVOLUME1
+	action 0
+		1080 : 0.01
+		1081 : 0.04
+		1082 : 0.95
+state 1046 STROKEVOLUME2
+	action 0
+		1080 : 0.01
+		1081 : 0.01
+		1082 : 0.98
+state 1047 CO0
+	action 0
+		1083 : 0.98 * ((1 - p0)/(1 - 0.01))
+		1084 : p0
+		1085 : 0.01 * ((1 - p0)/(1 - 0.01))
+state 1048 CO1
+	action 0
+		1083 : 0.98 * ((1 - p3)/(1 - 0.01))
+		1084 : p3
+		1085 : 0.01 * ((1 - p3)/(1 - 0.01))
+state 1049 CO2
+	action 0
+		1083 : 0.9
+		1084 : 0.09
+		1085 : 0.01
+state 1050 CO0
+	action 0
+		1086 : 0.98 * ((1 - p0)/(1 - 0.01))
+		1087 : p0
+		1088 : 0.01 * ((1 - p0)/(1 - 0.01))
+state 1051 CO1
+	action 0
+		1086 : 0.98 * ((1 - p3)/(1 - 0.01))
+		1087 : p3
+		1088 : 0.01 * ((1 - p3)/(1 - 0.01))
+state 1052 CO2
+	action 0
+		1086 : 0.9
+		1087 : 0.09
+		1088 : 0.01
+state 1053 CO0
+	action 0
+		1089 : 0.98 * ((1 - p0)/(1 - 0.01))
+		1090 : p0
+		1091 : 0.01 * ((1 - p0)/(1 - 0.01))
+state 1054 CO1
+	action 0
+		1089 : 0.98 * ((1 - p3)/(1 - 0.01))
+		1090 : p3
+		1091 : 0.01 * ((1 - p3)/(1 - 0.01))
+state 1055 CO2
+	action 0
+		1089 : 0.9
+		1090 : 0.09
+		1091 : 0.01
+state 1056 CO0
+	action 0
+		1092 : 0.98 * ((1 - p0)/(1 - 0.01))
+		1093 : p0
+		1094 : 0.01 * ((1 - p0)/(1 - 0.01))
+state 1057 CO1
+	action 0
+		1092 : 0.98 * ((1 - p3)/(1 - 0.01))
+		1093 : p3
+		1094 : 0.01 * ((1 - p3)/(1 - 0.01))
+state 1058 CO2
+	action 0
+		1092 : 0.9
+		1093 : 0.09
+		1094 : 0.01
+state 1059 CO0
+	action 0
+		1083 : 0.98 * ((1 - p1)/(1 - 0.01))
+		1084 : p1
+		1085 : 0.01 * ((1 - p1)/(1 - 0.01))
+state 1060 CO1
+	action 0
+		1083 : 0.1
+		1084 : 0.85
+		1085 : 0.05
+state 1061 CO2
+	action 0
+		1083 : 0.05
+		1084 : 0.2
+		1085 : 0.75
+state 1062 CO0
+	action 0
+		1086 : 0.98 * ((1 - p1)/(1 - 0.01))
+		1087 : p1
+		1088 : 0.01 * ((1 - p1)/(1 - 0.01))
+state 1063 CO1
+	action 0
+		1086 : 0.1
+		1087 : 0.85
+		1088 : 0.05
+state 1064 CO2
+	action 0
+		1086 : 0.05
+		1087 : 0.2
+		1088 : 0.75
+state 1065 CO0
+	action 0
+		1089 : 0.98 * ((1 - p1)/(1 - 0.01))
+		1090 : p1
+		1091 : 0.01 * ((1 - p1)/(1 - 0.01))
+state 1066 CO1
+	action 0
+		1089 : 0.1
+		1090 : 0.85
+		1091 : 0.05
+state 1067 CO2
+	action 0
+		1089 : 0.05
+		1090 : 0.2
+		1091 : 0.75
+state 1068 CO0
+	action 0
+		1092 : 0.98 * ((1 - p1)/(1 - 0.01))
+		1093 : p1
+		1094 : 0.01 * ((1 - p1)/(1 - 0.01))
+state 1069 CO1
+	action 0
+		1092 : 0.1
+		1093 : 0.85
+		1094 : 0.05
+state 1070 CO2
+	action 0
+		1092 : 0.05
+		1093 : 0.2
+		1094 : 0.75
+state 1071 CO0
+	action 0
+		1083 : 0.3 * ((1 - p2)/(1 - 0.6))
+		1084 : p2
+		1085 : 0.1 * ((1 - p2)/(1 - 0.6))
+state 1072 CO1
+	action 0
+		1083 : 0.05
+		1084 : 0.4
+		1085 : 0.55
+state 1073 CO2
+	action 0
+		1083 : 0.01
+		1084 : 0.09
+		1085 : 0.9
+state 1074 CO0
+	action 0
+		1086 : 0.3 * ((1 - p2)/(1 - 0.6))
+		1087 : p2
+		1088 : 0.1 * ((1 - p2)/(1 - 0.6))
+state 1075 CO1
+	action 0
+		1086 : 0.05
+		1087 : 0.4
+		1088 : 0.55
+state 1076 CO2
+	action 0
+		1086 : 0.01
+		1087 : 0.09
+		1088 : 0.9
+state 1077 CO0
+	action 0
+		1089 : 0.3 * ((1 - p2)/(1 - 0.6))
+		1090 : p2
+		1091 : 0.1 * ((1 - p2)/(1 - 0.6))
+state 1078 CO1
+	action 0
+		1089 : 0.05
+		1090 : 0.4
+		1091 : 0.55
+state 1079 CO2
+	action 0
+		1089 : 0.01
+		1090 : 0.09
+		1091 : 0.9
+state 1080 CO0
+	action 0
+		1092 : 0.3 * ((1 - p2)/(1 - 0.6))
+		1093 : p2
+		1094 : 0.1 * ((1 - p2)/(1 - 0.6))
+state 1081 CO1
+	action 0
+		1092 : 0.05
+		1093 : 0.4
+		1094 : 0.55
+state 1082 CO2
+	action 0
+		1092 : 0.01
+		1093 : 0.09
+		1094 : 0.9
+state 1083 BP0
+	action 0
+		1095 : 0.9
+		1096 : 0.1
+state 1084 BP1
+	action 0
+		1095 : 0.9
+		1096 : 0.1
+state 1085 BP2
+	action 0
+		1095 : 0.9
+		1096 : 0.1
+state 1086 BP0
+	action 0
+		1097 : 0.01
+		1098 : 0.99
+state 1087 BP1
+	action 0
+		1097 : 0.01
+		1098 : 0.99
+state 1088 BP2
+	action 0
+		1097 : 0.01
+		1098 : 0.99
+state 1089 BP0
+	action 0
+		1099 : 0.9
+		1100 : 0.1
+state 1090 BP1
+	action 0
+		1099 : 0.9
+		1100 : 0.1
+state 1091 BP2
+	action 0
+		1099 : 0.9
+		1100 : 0.1
+state 1092 BP0
+	action 0
+		1101 : 0.01
+		1102 : 0.99
+state 1093 BP1
+	action 0
+		1101 : 0.01
+		1102 : 0.99
+state 1094 BP2
+	action 0
+		1101 : 0.01
+		1102 : 0.99
+state 1095 HISTORY0
+	action 0
+		1103 : 0.95
+		1104 : 0.04
+		1105 : 0.01
+state 1096 HISTORY1
+	action 0
+		1103 : 0.95
+		1104 : 0.04
+		1105 : 0.01
+state 1097 HISTORY0
+	action 0
+		1103 : 0.01
+		1104 : 0.09
+		1105 : 0.9
+state 1098 HISTORY1
+	action 0
+		1103 : 0.01
+		1104 : 0.09
+		1105 : 0.9
+state 1099 HISTORY0
+	action 0
+		1103 : 0.98
+		1104 : 0.01
+		1105 : 0.01
+state 1100 HISTORY1
+	action 0
+		1103 : 0.98
+		1104 : 0.01
+		1105 : 0.01
+state 1101 HISTORY0
+	action 0
+		1103 : 0.05
+		1104 : 0.9
+		1105 : 0.05
+state 1102 HISTORY1
+	action 0
+		1103 : 0.05
+		1104 : 0.9
+		1105 : 0.05
+state 1103 LVEDVOLUME0
+	action 0
+		1106 : 0.95
+		1107 : 0.04
+		1108 : 0.01
+state 1104 LVEDVOLUME1
+	action 0
+		1109 : 0.04
+		1110 : 0.95
+		1111 : 0.01
+state 1105 LVEDVOLUME2
+	action 0
+		1112 : 0.01
+		1113 : 0.04
+		1114 : 0.95
+state 1106 PCWP0
+	action 0
+		1115 : 0.95
+		1116 : 0.04
+		1117 : 0.01
+state 1107 PCWP1
+	action 0
+		1115 : 0.95
+		1116 : 0.04
+		1117 : 0.01
+state 1108 PCWP2
+	action 0
+		1115 : 0.95
+		1116 : 0.04
+		1117 : 0.01
+state 1109 PCWP0
+	action 0
+		1115 : 0.04
+		1116 : 0.95
+		1117 : 0.01
+state 1110 PCWP1
+	action 0
+		1115 : 0.04
+		1116 : 0.95
+		1117 : 0.01
+state 1111 PCWP2
+	action 0
+		1115 : 0.04
+		1116 : 0.95
+		1117 : 0.01
+state 1112 PCWP0
+	action 0
+		1115 : 0.01
+		1116 : 0.29
+		1117 : 0.7
+state 1113 PCWP1
+	action 0
+		1115 : 0.01
+		1116 : 0.29
+		1117 : 0.7
+state 1114 PCWP2
+	action 0
+		1115 : 0.01
+		1116 : 0.29
+		1117 : 0.7
+state 1115 CVP0 deadlock
+	action 0
+		1115 : 1
+state 1116 CVP1 deadlock
+	action 0
+		1116 : 1
+state 1117 CVP2 deadlock
+	action 0
+		1117 : 1
